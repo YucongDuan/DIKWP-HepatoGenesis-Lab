@@ -1,0 +1,18 @@
+{
+  "scenarios": [
+    {
+      "id": "history_study",
+      "records": [
+        {
+          "id": "record01",
+          "source_type": "SYNTHETIC_DEMO",
+          "title": "Synthetic history-conditioned recovery comparison",
+          "population": "synthetic_system",
+          "results": "A declared model comparison, not a clinical observation.",
+          "limitations": "No biological calibration or independent experimental evidence.",
+          "quality": 90
+        }
+      ]
+    }
+  ]
+}

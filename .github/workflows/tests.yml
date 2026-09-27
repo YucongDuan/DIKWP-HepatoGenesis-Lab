@@ -1,0 +1,27 @@
+name: Scientific contracts
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contracts:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.10'
+          - os: ubuntu-latest
+            python: '3.13'
+          - os: windows-latest
+            python: '3.13'
+          - os: macos-latest
+            python: '3.13'
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python scripts/run_tests.py
+      - run: python scripts/build_zipapp.py --out dist/DIKWP_HepatoGenesis_Lab.pyz
+      - run: python dist/DIKWP_HepatoGenesis_Lab.pyz demo --out ci-run --samples 0
+      - run: python dist/DIKWP_HepatoGenesis_Lab.pyz verify ci-run

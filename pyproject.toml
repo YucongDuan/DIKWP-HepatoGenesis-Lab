@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "dikwp-hepatogenesis-lab"
+version = "1.0.0"
+description = "Executable histories, model discrimination and multiscale research for A Brief History of the Liver"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "HepatoGenesis Lab contributors"}]
+dependencies = []
+[project.scripts]
+hepatogenesis = "hepatogenesis.cli:main"
+[tool.setuptools.packages.find]
+include = ["hepatogenesis*"]
+[tool.setuptools.package-data]
+hepatogenesis = ["assets/*.html", "assets/*.json"]
+
+[project.urls]
+Repository = "https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab"
+Documentation = "https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/blob/main/GETTING_STARTED.md"
+Issues = "https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/issues"

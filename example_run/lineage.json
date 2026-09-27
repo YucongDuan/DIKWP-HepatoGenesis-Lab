@@ -1,0 +1,412 @@
+{
+  "after": {
+    "events": [
+      {
+        "hash": "a2c30a8a8a9be7a69f503c2bc323389eb2542d5842d678ef3af3dc2921fbfd07",
+        "payload": {
+          "node": {
+            "depends_on": [],
+            "id": "source-v1",
+            "kind": "source",
+            "layer": "D",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "Synthetic observation record."
+          },
+          "type": "add"
+        },
+        "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+        "seq": 1
+      },
+      {
+        "hash": "7ecdd9c10cfc22f34de191747ccd0fbe35a59107faf811e528b4ebf1c95d8850",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "source-v1"
+            ],
+            "id": "model-v1",
+            "kind": "model",
+            "layer": "K",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "History-conditioned model contract."
+          },
+          "type": "add"
+        },
+        "previous": "a2c30a8a8a9be7a69f503c2bc323389eb2542d5842d678ef3af3dc2921fbfd07",
+        "seq": 2
+      },
+      {
+        "hash": "1c36673a473e57b5b39f66768a248a3ad3e61153cd14cfc2aeeb618bcec8f4d4",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "model-v1"
+            ],
+            "id": "result-v1",
+            "kind": "result",
+            "layer": "I",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "Computed result within a declared horizon."
+          },
+          "type": "add"
+        },
+        "previous": "7ecdd9c10cfc22f34de191747ccd0fbe35a59107faf811e528b4ebf1c95d8850",
+        "seq": 3
+      },
+      {
+        "hash": "69236d3284cac36a5bf6875db55ac98ef6f6005971e3d4e743b9bba1f5b1640f",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "result-v1"
+            ],
+            "id": "claim-v1",
+            "kind": "claim",
+            "layer": "W",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "A scoped comparison, not a patient conclusion."
+          },
+          "type": "add"
+        },
+        "previous": "1c36673a473e57b5b39f66768a248a3ad3e61153cd14cfc2aeeb618bcec8f4d4",
+        "seq": 4
+      },
+      {
+        "hash": "bd870019eeb087cf87675041be24fb32175acd4e160b9f31006b0c060dda3108",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "claim-v1"
+            ],
+            "id": "experiment-v1",
+            "kind": "experiment",
+            "layer": "P",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "A proposed discriminating follow-up experiment."
+          },
+          "type": "add"
+        },
+        "previous": "69236d3284cac36a5bf6875db55ac98ef6f6005971e3d4e743b9bba1f5b1640f",
+        "seq": 5
+      },
+      {
+        "hash": "774a45339b194a2c20b300d54893ab7f855772cf55db9c35d8f1dd6e2ec1da41",
+        "payload": {
+          "id": "source-v1",
+          "reason": "Synthetic correction exercise: source provenance failed.",
+          "type": "invalidate"
+        },
+        "previous": "bd870019eeb087cf87675041be24fb32175acd4e160b9f31006b0c060dda3108",
+        "seq": 6
+      }
+    ],
+    "head": "774a45339b194a2c20b300d54893ab7f855772cf55db9c35d8f1dd6e2ec1da41",
+    "nodes": {
+      "claim-v1": {
+        "depends_on": [
+          "result-v1"
+        ],
+        "id": "claim-v1",
+        "kind": "claim",
+        "layer": "W",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "A scoped comparison, not a patient conclusion.",
+        "status": "review_required"
+      },
+      "experiment-v1": {
+        "depends_on": [
+          "claim-v1"
+        ],
+        "id": "experiment-v1",
+        "kind": "experiment",
+        "layer": "P",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "A proposed discriminating follow-up experiment.",
+        "status": "review_required"
+      },
+      "model-v1": {
+        "depends_on": [
+          "source-v1"
+        ],
+        "id": "model-v1",
+        "kind": "model",
+        "layer": "K",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "History-conditioned model contract.",
+        "status": "review_required"
+      },
+      "result-v1": {
+        "depends_on": [
+          "model-v1"
+        ],
+        "id": "result-v1",
+        "kind": "result",
+        "layer": "I",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "Computed result within a declared horizon.",
+        "status": "review_required"
+      },
+      "source-v1": {
+        "depends_on": [],
+        "id": "source-v1",
+        "kind": "source",
+        "layer": "D",
+        "reason": "Synthetic correction exercise: source provenance failed.",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "Synthetic observation record.",
+        "status": "invalidated"
+      }
+    },
+    "scope": "Local research lineage; reviewer names are assertions, not verified identities."
+  },
+  "before": {
+    "events": [
+      {
+        "hash": "a2c30a8a8a9be7a69f503c2bc323389eb2542d5842d678ef3af3dc2921fbfd07",
+        "payload": {
+          "node": {
+            "depends_on": [],
+            "id": "source-v1",
+            "kind": "source",
+            "layer": "D",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "Synthetic observation record."
+          },
+          "type": "add"
+        },
+        "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+        "seq": 1
+      },
+      {
+        "hash": "7ecdd9c10cfc22f34de191747ccd0fbe35a59107faf811e528b4ebf1c95d8850",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "source-v1"
+            ],
+            "id": "model-v1",
+            "kind": "model",
+            "layer": "K",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "History-conditioned model contract."
+          },
+          "type": "add"
+        },
+        "previous": "a2c30a8a8a9be7a69f503c2bc323389eb2542d5842d678ef3af3dc2921fbfd07",
+        "seq": 2
+      },
+      {
+        "hash": "1c36673a473e57b5b39f66768a248a3ad3e61153cd14cfc2aeeb618bcec8f4d4",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "model-v1"
+            ],
+            "id": "result-v1",
+            "kind": "result",
+            "layer": "I",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "Computed result within a declared horizon."
+          },
+          "type": "add"
+        },
+        "previous": "7ecdd9c10cfc22f34de191747ccd0fbe35a59107faf811e528b4ebf1c95d8850",
+        "seq": 3
+      },
+      {
+        "hash": "69236d3284cac36a5bf6875db55ac98ef6f6005971e3d4e743b9bba1f5b1640f",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "result-v1"
+            ],
+            "id": "claim-v1",
+            "kind": "claim",
+            "layer": "W",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "A scoped comparison, not a patient conclusion."
+          },
+          "type": "add"
+        },
+        "previous": "1c36673a473e57b5b39f66768a248a3ad3e61153cd14cfc2aeeb618bcec8f4d4",
+        "seq": 4
+      },
+      {
+        "hash": "bd870019eeb087cf87675041be24fb32175acd4e160b9f31006b0c060dda3108",
+        "payload": {
+          "node": {
+            "depends_on": [
+              "claim-v1"
+            ],
+            "id": "experiment-v1",
+            "kind": "experiment",
+            "layer": "P",
+            "scope": {
+              "claim_strength": "simulation",
+              "data_kind": "synthetic",
+              "species": "synthetic_system",
+              "units": "dimensionless"
+            },
+            "statement": "A proposed discriminating follow-up experiment."
+          },
+          "type": "add"
+        },
+        "previous": "69236d3284cac36a5bf6875db55ac98ef6f6005971e3d4e743b9bba1f5b1640f",
+        "seq": 5
+      }
+    ],
+    "head": "bd870019eeb087cf87675041be24fb32175acd4e160b9f31006b0c060dda3108",
+    "nodes": {
+      "claim-v1": {
+        "depends_on": [
+          "result-v1"
+        ],
+        "id": "claim-v1",
+        "kind": "claim",
+        "layer": "W",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "A scoped comparison, not a patient conclusion.",
+        "status": "unreviewed"
+      },
+      "experiment-v1": {
+        "depends_on": [
+          "claim-v1"
+        ],
+        "id": "experiment-v1",
+        "kind": "experiment",
+        "layer": "P",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "A proposed discriminating follow-up experiment.",
+        "status": "unreviewed"
+      },
+      "model-v1": {
+        "depends_on": [
+          "source-v1"
+        ],
+        "id": "model-v1",
+        "kind": "model",
+        "layer": "K",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "History-conditioned model contract.",
+        "status": "unreviewed"
+      },
+      "result-v1": {
+        "depends_on": [
+          "model-v1"
+        ],
+        "id": "result-v1",
+        "kind": "result",
+        "layer": "I",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "Computed result within a declared horizon.",
+        "status": "unreviewed"
+      },
+      "source-v1": {
+        "depends_on": [],
+        "id": "source-v1",
+        "kind": "source",
+        "layer": "D",
+        "scope": {
+          "claim_strength": "simulation",
+          "data_kind": "synthetic",
+          "species": "synthetic_system",
+          "units": "dimensionless"
+        },
+        "statement": "Synthetic observation record.",
+        "status": "unreviewed"
+      }
+    },
+    "scope": "Local research lineage; reviewer names are assertions, not verified identities."
+  },
+  "review_required_count": 4
+}

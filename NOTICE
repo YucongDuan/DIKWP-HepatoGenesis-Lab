@@ -1,0 +1,18 @@
+DIKWP HepatoGenesis Lab 1.0.0
+Copyright 2026 HepatoGenesis Lab contributors.
+
+An independently written, AI-assisted software companion prepared for A Brief
+History of the Liver by Yucong Duan and Zhongdao Wu. DIKWP conceptual attribution
+is to Yucong Duan. Attribution does not assert author sign-off, institutional
+endorsement, clinical validation, or rights over unrelated upstream software.
+
+No upstream project source code, complete book manuscript, journal article,
+patient dataset, font file, credentials or third-party runtime dependency is
+vendored. Mathematical equations and reference values from the supplied book are
+identified in research/book_provenance.json. Upstream comparisons are scoped in
+research/upstream_review.json. The original book remains separately controlled.
+
+New source, documentation and synthetic fixtures in this distribution are
+licensed under Apache-2.0. This does not place additional field-of-use conditions
+on the Apache license. Research-only statements describe technical validation
+limits, not a noncommercial license restriction.

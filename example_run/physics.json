@@ -1,0 +1,1114 @@
+{
+  "balanced_energy": {
+    "balanced": true,
+    "residual_W": 0.0,
+    "scope": "Declared first-law boundary balance; no inference about biological function or moral value."
+  },
+  "consistent_reaction": {
+    "delta_g_J_per_mol": -5000.0,
+    "entropy_production_J_per_K_s": 0.016129032258064516,
+    "scope": "Single isothermal uncoupled reaction with dimensionless activities; coupled networks require a joint ledger.",
+    "uncoupled_direction_consistent": true
+  },
+  "inconsistent_uncoupled_reaction": {
+    "delta_g_J_per_mol": 5000.0,
+    "entropy_production_J_per_K_s": -0.016129032258064516,
+    "scope": "Single isothermal uncoupled reaction with dimensionless activities; coupled networks require a joint ledger.",
+    "uncoupled_direction_consistent": false
+  },
+  "outlet_difference_mmol_per_L": 0.1542307547403841,
+  "unbalanced_energy": {
+    "balanced": false,
+    "residual_W": -2.0,
+    "scope": "Declared first-law boundary balance; no inference about biological function or moral value."
+  },
+  "well_mixed": {
+    "effective_step_h": 0.005,
+    "final_profile_mmol_per_L": [
+      0.42856579451999577
+    ],
+    "mass_ledger_mmol": {
+      "final": 0.42856579451999577,
+      "initial": 0.0,
+      "input": 4.800000000000071,
+      "output": 1.87347180234857,
+      "reacted": 2.4979624031314334,
+      "residual": -7.194245199571014e-14
+    },
+    "method": "positive finite-volume upwind advection, neighbor exchange, first-order reaction",
+    "scope": "Synthetic chain, not anatomical reconstruction or calibrated liver perfusion.",
+    "specification": {
+      "cells": 1,
+      "flow_L_per_h": 0.6,
+      "horizon_h": 8.0,
+      "inlet_mmol_per_L": 1.0,
+      "mixing_L_per_h": 0.04,
+      "reaction_per_h": 0.8,
+      "step_h": 0.005,
+      "volume_L": 1.0
+    },
+    "trace": [
+      {
+        "mean_mmol_per_L": 0.003,
+        "outlet_mmol_per_L": 0.003,
+        "time_h": 0.005
+      },
+      {
+        "mean_mmol_per_L": 0.04824155493495818,
+        "outlet_mmol_per_L": 0.04824155493495818,
+        "time_h": 0.085
+      },
+      {
+        "mean_mmol_per_L": 0.08867358048068173,
+        "outlet_mmol_per_L": 0.08867358048068173,
+        "time_h": 0.165
+      },
+      {
+        "mean_mmol_per_L": 0.12480736704217926,
+        "outlet_mmol_per_L": 0.12480736704217926,
+        "time_h": 0.245
+      },
+      {
+        "mean_mmol_per_L": 0.15709985087520742,
+        "outlet_mmol_per_L": 0.15709985087520742,
+        "time_h": 0.325
+      },
+      {
+        "mean_mmol_per_L": 0.18595939235535627,
+        "outlet_mmol_per_L": 0.18595939235535627,
+        "time_h": 0.405
+      },
+      {
+        "mean_mmol_per_L": 0.2117509399721607,
+        "outlet_mmol_per_L": 0.2117509399721607,
+        "time_h": 0.485
+      },
+      {
+        "mean_mmol_per_L": 0.23480064535044792,
+        "outlet_mmol_per_L": 0.23480064535044792,
+        "time_h": 0.5650000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.2553999876589988,
+        "outlet_mmol_per_L": 0.2553999876589988,
+        "time_h": 0.645
+      },
+      {
+        "mean_mmol_per_L": 0.2738094595624693,
+        "outlet_mmol_per_L": 0.2738094595624693,
+        "time_h": 0.725
+      },
+      {
+        "mean_mmol_per_L": 0.29026186132793685,
+        "outlet_mmol_per_L": 0.29026186132793685,
+        "time_h": 0.805
+      },
+      {
+        "mean_mmol_per_L": 0.304965244742283,
+        "outlet_mmol_per_L": 0.304965244742283,
+        "time_h": 0.885
+      },
+      {
+        "mean_mmol_per_L": 0.3181055440682474,
+        "outlet_mmol_per_L": 0.3181055440682474,
+        "time_h": 0.965
+      },
+      {
+        "mean_mmol_per_L": 0.32984892730937737,
+        "outlet_mmol_per_L": 0.32984892730937737,
+        "time_h": 1.045
+      },
+      {
+        "mean_mmol_per_L": 0.34034389751721394,
+        "outlet_mmol_per_L": 0.34034389751721394,
+        "time_h": 1.125
+      },
+      {
+        "mean_mmol_per_L": 0.34972317071317055,
+        "outlet_mmol_per_L": 0.34972317071317055,
+        "time_h": 1.205
+      },
+      {
+        "mean_mmol_per_L": 0.35810535417270084,
+        "outlet_mmol_per_L": 0.35810535417270084,
+        "time_h": 1.285
+      },
+      {
+        "mean_mmol_per_L": 0.36559644629479754,
+        "outlet_mmol_per_L": 0.36559644629479754,
+        "time_h": 1.365
+      },
+      {
+        "mean_mmol_per_L": 0.3722911770236909,
+        "outlet_mmol_per_L": 0.3722911770236909,
+        "time_h": 1.445
+      },
+      {
+        "mean_mmol_per_L": 0.37827420577328863,
+        "outlet_mmol_per_L": 0.37827420577328863,
+        "time_h": 1.5250000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.3836211920029244,
+        "outlet_mmol_per_L": 0.3836211920029244,
+        "time_h": 1.605
+      },
+      {
+        "mean_mmol_per_L": 0.3883997519825731,
+        "outlet_mmol_per_L": 0.3883997519825731,
+        "time_h": 1.685
+      },
+      {
+        "mean_mmol_per_L": 0.39267031384647666,
+        "outlet_mmol_per_L": 0.39267031384647666,
+        "time_h": 1.7650000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.39648688174791547,
+        "outlet_mmol_per_L": 0.39648688174791547,
+        "time_h": 1.845
+      },
+      {
+        "mean_mmol_per_L": 0.39989771877838004,
+        "outlet_mmol_per_L": 0.39989771877838004,
+        "time_h": 1.925
+      },
+      {
+        "mean_mmol_per_L": 0.4029459572871207,
+        "outlet_mmol_per_L": 0.4029459572871207,
+        "time_h": 2.005
+      },
+      {
+        "mean_mmol_per_L": 0.40567014431897785,
+        "outlet_mmol_per_L": 0.40567014431897785,
+        "time_h": 2.085
+      },
+      {
+        "mean_mmol_per_L": 0.40810472906792666,
+        "outlet_mmol_per_L": 0.40810472906792666,
+        "time_h": 2.165
+      },
+      {
+        "mean_mmol_per_L": 0.41028049851051646,
+        "outlet_mmol_per_L": 0.41028049851051646,
+        "time_h": 2.245
+      },
+      {
+        "mean_mmol_per_L": 0.4122249667280846,
+        "outlet_mmol_per_L": 0.4122249667280846,
+        "time_h": 2.325
+      },
+      {
+        "mean_mmol_per_L": 0.41396272284098984,
+        "outlet_mmol_per_L": 0.41396272284098984,
+        "time_h": 2.4050000000000002
+      },
+      {
+        "mean_mmol_per_L": 0.4155157419547281,
+        "outlet_mmol_per_L": 0.4155157419547281,
+        "time_h": 2.485
+      },
+      {
+        "mean_mmol_per_L": 0.4169036630500559,
+        "outlet_mmol_per_L": 0.4169036630500559,
+        "time_h": 2.565
+      },
+      {
+        "mean_mmol_per_L": 0.41814403733123195,
+        "outlet_mmol_per_L": 0.41814403733123195,
+        "time_h": 2.645
+      },
+      {
+        "mean_mmol_per_L": 0.41925255017290763,
+        "outlet_mmol_per_L": 0.41925255017290763,
+        "time_h": 2.725
+      },
+      {
+        "mean_mmol_per_L": 0.4202432194723343,
+        "outlet_mmol_per_L": 0.4202432194723343,
+        "time_h": 2.805
+      },
+      {
+        "mean_mmol_per_L": 0.4211285729151894,
+        "outlet_mmol_per_L": 0.4211285729151894,
+        "time_h": 2.8850000000000002
+      },
+      {
+        "mean_mmol_per_L": 0.4219198063966639,
+        "outlet_mmol_per_L": 0.4219198063966639,
+        "time_h": 2.965
+      },
+      {
+        "mean_mmol_per_L": 0.42262692560115644,
+        "outlet_mmol_per_L": 0.42262692560115644,
+        "time_h": 3.045
+      },
+      {
+        "mean_mmol_per_L": 0.423258872530943,
+        "outlet_mmol_per_L": 0.423258872530943,
+        "time_h": 3.125
+      },
+      {
+        "mean_mmol_per_L": 0.4238236385838651,
+        "outlet_mmol_per_L": 0.4238236385838651,
+        "time_h": 3.205
+      },
+      {
+        "mean_mmol_per_L": 0.42432836560997933,
+        "outlet_mmol_per_L": 0.42432836560997933,
+        "time_h": 3.285
+      },
+      {
+        "mean_mmol_per_L": 0.4247794362250985,
+        "outlet_mmol_per_L": 0.4247794362250985,
+        "time_h": 3.365
+      },
+      {
+        "mean_mmol_per_L": 0.4251825545233013,
+        "outlet_mmol_per_L": 0.4251825545233013,
+        "time_h": 3.4450000000000003
+      },
+      {
+        "mean_mmol_per_L": 0.42554281820907236,
+        "outlet_mmol_per_L": 0.42554281820907236,
+        "time_h": 3.525
+      },
+      {
+        "mean_mmol_per_L": 0.42586478306123604,
+        "outlet_mmol_per_L": 0.42586478306123604,
+        "time_h": 3.605
+      },
+      {
+        "mean_mmol_per_L": 0.42615252054387176,
+        "outlet_mmol_per_L": 0.42615252054387176,
+        "time_h": 3.685
+      },
+      {
+        "mean_mmol_per_L": 0.4264096692927402,
+        "outlet_mmol_per_L": 0.4264096692927402,
+        "time_h": 3.765
+      },
+      {
+        "mean_mmol_per_L": 0.4266394811283027,
+        "outlet_mmol_per_L": 0.4266394811283027,
+        "time_h": 3.845
+      },
+      {
+        "mean_mmol_per_L": 0.4268448621771973,
+        "outlet_mmol_per_L": 0.4268448621771973,
+        "time_h": 3.9250000000000003
+      },
+      {
+        "mean_mmol_per_L": 0.4270284096221836,
+        "outlet_mmol_per_L": 0.4270284096221836,
+        "time_h": 4.005
+      },
+      {
+        "mean_mmol_per_L": 0.42719244454528055,
+        "outlet_mmol_per_L": 0.42719244454528055,
+        "time_h": 4.085
+      },
+      {
+        "mean_mmol_per_L": 0.4273390412794242,
+        "outlet_mmol_per_L": 0.4273390412794242,
+        "time_h": 4.165
+      },
+      {
+        "mean_mmol_per_L": 0.42747005363981583,
+        "outlet_mmol_per_L": 0.42747005363981583,
+        "time_h": 4.245
+      },
+      {
+        "mean_mmol_per_L": 0.4275871383666731,
+        "outlet_mmol_per_L": 0.4275871383666731,
+        "time_h": 4.325
+      },
+      {
+        "mean_mmol_per_L": 0.4276917760758347,
+        "outlet_mmol_per_L": 0.4276917760758347,
+        "time_h": 4.405
+      },
+      {
+        "mean_mmol_per_L": 0.4277852899821528,
+        "outlet_mmol_per_L": 0.4277852899821528,
+        "time_h": 4.485
+      },
+      {
+        "mean_mmol_per_L": 0.42786886263244234,
+        "outlet_mmol_per_L": 0.42786886263244234,
+        "time_h": 4.565
+      },
+      {
+        "mean_mmol_per_L": 0.4279435508595885,
+        "outlet_mmol_per_L": 0.4279435508595885,
+        "time_h": 4.6450000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.42801029914691596,
+        "outlet_mmol_per_L": 0.42801029914691596,
+        "time_h": 4.7250000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.4280699515718214,
+        "outlet_mmol_per_L": 0.4280699515718214,
+        "time_h": 4.805
+      },
+      {
+        "mean_mmol_per_L": 0.4281232624797048,
+        "outlet_mmol_per_L": 0.4281232624797048,
+        "time_h": 4.885
+      },
+      {
+        "mean_mmol_per_L": 0.4281709060231793,
+        "outlet_mmol_per_L": 0.4281709060231793,
+        "time_h": 4.965
+      },
+      {
+        "mean_mmol_per_L": 0.42821348468718906,
+        "outlet_mmol_per_L": 0.42821348468718906,
+        "time_h": 5.045
+      },
+      {
+        "mean_mmol_per_L": 0.42825153690783924,
+        "outlet_mmol_per_L": 0.42825153690783924,
+        "time_h": 5.125
+      },
+      {
+        "mean_mmol_per_L": 0.42828554388128687,
+        "outlet_mmol_per_L": 0.42828554388128687,
+        "time_h": 5.205
+      },
+      {
+        "mean_mmol_per_L": 0.42831593564879233,
+        "outlet_mmol_per_L": 0.42831593564879233,
+        "time_h": 5.285
+      },
+      {
+        "mean_mmol_per_L": 0.42834309653488317,
+        "outlet_mmol_per_L": 0.42834309653488317,
+        "time_h": 5.365
+      },
+      {
+        "mean_mmol_per_L": 0.4283673700073986,
+        "outlet_mmol_per_L": 0.4283673700073986,
+        "time_h": 5.445
+      },
+      {
+        "mean_mmol_per_L": 0.42838906302087354,
+        "outlet_mmol_per_L": 0.42838906302087354,
+        "time_h": 5.525
+      },
+      {
+        "mean_mmol_per_L": 0.42840844989818666,
+        "outlet_mmol_per_L": 0.42840844989818666,
+        "time_h": 5.605
+      },
+      {
+        "mean_mmol_per_L": 0.42842577579955987,
+        "outlet_mmol_per_L": 0.42842577579955987,
+        "time_h": 5.6850000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.4284412598227754,
+        "outlet_mmol_per_L": 0.4284412598227754,
+        "time_h": 5.765
+      },
+      {
+        "mean_mmol_per_L": 0.42845509777381635,
+        "outlet_mmol_per_L": 0.42845509777381635,
+        "time_h": 5.845
+      },
+      {
+        "mean_mmol_per_L": 0.42846746464296565,
+        "outlet_mmol_per_L": 0.42846746464296565,
+        "time_h": 5.925
+      },
+      {
+        "mean_mmol_per_L": 0.4284785168176773,
+        "outlet_mmol_per_L": 0.4284785168176773,
+        "time_h": 6.005
+      },
+      {
+        "mean_mmol_per_L": 0.4284883940602015,
+        "outlet_mmol_per_L": 0.4284883940602015,
+        "time_h": 6.085
+      },
+      {
+        "mean_mmol_per_L": 0.4284972212749744,
+        "outlet_mmol_per_L": 0.4284972212749744,
+        "time_h": 6.165
+      },
+      {
+        "mean_mmol_per_L": 0.4285051100881176,
+        "outlet_mmol_per_L": 0.4285051100881176,
+        "time_h": 6.245
+      },
+      {
+        "mean_mmol_per_L": 0.4285121602590279,
+        "outlet_mmol_per_L": 0.4285121602590279,
+        "time_h": 6.325
+      },
+      {
+        "mean_mmol_per_L": 0.4285184609419013,
+        "outlet_mmol_per_L": 0.4285184609419013,
+        "time_h": 6.405
+      },
+      {
+        "mean_mmol_per_L": 0.4285240918131492,
+        "outlet_mmol_per_L": 0.4285240918131492,
+        "time_h": 6.485
+      },
+      {
+        "mean_mmol_per_L": 0.42852912407896004,
+        "outlet_mmol_per_L": 0.42852912407896004,
+        "time_h": 6.565
+      },
+      {
+        "mean_mmol_per_L": 0.4285336213757509,
+        "outlet_mmol_per_L": 0.4285336213757509,
+        "time_h": 6.6450000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.42853764057489196,
+        "outlet_mmol_per_L": 0.42853764057489196,
+        "time_h": 6.7250000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.42854123250188436,
+        "outlet_mmol_per_L": 0.42854123250188436,
+        "time_h": 6.805
+      },
+      {
+        "mean_mmol_per_L": 0.42854444257908264,
+        "outlet_mmol_per_L": 0.42854444257908264,
+        "time_h": 6.885
+      },
+      {
+        "mean_mmol_per_L": 0.42854731140009183,
+        "outlet_mmol_per_L": 0.42854731140009183,
+        "time_h": 6.965
+      },
+      {
+        "mean_mmol_per_L": 0.4285498752431007,
+        "outlet_mmol_per_L": 0.4285498752431007,
+        "time_h": 7.045
+      },
+      {
+        "mean_mmol_per_L": 0.4285521665296441,
+        "outlet_mmol_per_L": 0.4285521665296441,
+        "time_h": 7.125
+      },
+      {
+        "mean_mmol_per_L": 0.42855421423459583,
+        "outlet_mmol_per_L": 0.42855421423459583,
+        "time_h": 7.205
+      },
+      {
+        "mean_mmol_per_L": 0.42855604425257443,
+        "outlet_mmol_per_L": 0.42855604425257443,
+        "time_h": 7.285
+      },
+      {
+        "mean_mmol_per_L": 0.42855767972539954,
+        "outlet_mmol_per_L": 0.42855767972539954,
+        "time_h": 7.365
+      },
+      {
+        "mean_mmol_per_L": 0.4285591413347351,
+        "outlet_mmol_per_L": 0.4285591413347351,
+        "time_h": 7.445
+      },
+      {
+        "mean_mmol_per_L": 0.42856044756362305,
+        "outlet_mmol_per_L": 0.42856044756362305,
+        "time_h": 7.525
+      },
+      {
+        "mean_mmol_per_L": 0.4285616149302143,
+        "outlet_mmol_per_L": 0.4285616149302143,
+        "time_h": 7.605
+      },
+      {
+        "mean_mmol_per_L": 0.42856265819665157,
+        "outlet_mmol_per_L": 0.42856265819665157,
+        "time_h": 7.6850000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.4285635905557473,
+        "outlet_mmol_per_L": 0.4285635905557473,
+        "time_h": 7.765000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.42856442379781484,
+        "outlet_mmol_per_L": 0.42856442379781484,
+        "time_h": 7.845
+      },
+      {
+        "mean_mmol_per_L": 0.4285651684597657,
+        "outlet_mmol_per_L": 0.4285651684597657,
+        "time_h": 7.925
+      },
+      {
+        "mean_mmol_per_L": 0.42856579451999577,
+        "outlet_mmol_per_L": 0.42856579451999577,
+        "time_h": 8.0
+      }
+    ]
+  },
+  "zoned": {
+    "effective_step_h": 0.005,
+    "final_profile_mmol_per_L": [
+      0.9442400377233683,
+      0.8947073016767105,
+      0.8477729429941214,
+      0.8033006565678086,
+      0.7611612875533194,
+      0.7212324562826011,
+      0.6833982028532892,
+      0.6475486503620512,
+      0.6135796858039627,
+      0.5813926577111939,
+      0.5508940896528983,
+      0.5219954087642624,
+      0.4946126885163181,
+      0.46866640497947903,
+      0.4440812058729586,
+      0.42078569172943603,
+      0.3987122085409432,
+      0.3777966513091824,
+      0.3579782783586675,
+      0.3391995431159911,
+      0.32140606516316655,
+      0.30454880555395103,
+      0.2886233231014667,
+      0.27433503977961166
+    ],
+    "mass_ledger_mmol": {
+      "final": 0.5442487201652816,
+      "initial": 0.0,
+      "input": 4.800000000000071,
+      "output": 1.0585473665757885,
+      "reacted": 3.197203913258798,
+      "residual": -2.0294876890147862e-13
+    },
+    "method": "positive finite-volume upwind advection, neighbor exchange, first-order reaction",
+    "scope": "Synthetic chain, not anatomical reconstruction or calibrated liver perfusion.",
+    "specification": {
+      "cells": 24,
+      "flow_L_per_h": 0.6,
+      "horizon_h": 8.0,
+      "inlet_mmol_per_L": 1.0,
+      "mixing_L_per_h": 0.04,
+      "reaction_per_h": 0.8,
+      "step_h": 0.005,
+      "volume_L": 1.0
+    },
+    "trace": [
+      {
+        "mean_mmol_per_L": 0.0030000000000000005,
+        "outlet_mmol_per_L": 0.0,
+        "time_h": 0.005
+      },
+      {
+        "mean_mmol_per_L": 0.04940018775460272,
+        "outlet_mmol_per_L": 0.0,
+        "time_h": 0.085
+      },
+      {
+        "mean_mmol_per_L": 0.09291821028341911,
+        "outlet_mmol_per_L": 2.97860374925529e-20,
+        "time_h": 0.165
+      },
+      {
+        "mean_mmol_per_L": 0.13373309437040667,
+        "outlet_mmol_per_L": 1.2608641882543099e-14,
+        "time_h": 0.245
+      },
+      {
+        "mean_mmol_per_L": 0.17201274648294548,
+        "outlet_mmol_per_L": 2.071234680271143e-11,
+        "time_h": 0.325
+      },
+      {
+        "mean_mmol_per_L": 0.207914643486524,
+        "outlet_mmol_per_L": 3.1770176846263296e-09,
+        "time_h": 0.405
+      },
+      {
+        "mean_mmol_per_L": 0.24158647905992295,
+        "outlet_mmol_per_L": 1.2788415934960226e-07,
+        "time_h": 0.485
+      },
+      {
+        "mean_mmol_per_L": 0.2731667443803137,
+        "outlet_mmol_per_L": 2.175861581595398e-06,
+        "time_h": 0.5650000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.30278505110597165,
+        "outlet_mmol_per_L": 2.031644829922993e-05,
+        "time_h": 0.645
+      },
+      {
+        "mean_mmol_per_L": 0.3305613753588657,
+        "outlet_mmol_per_L": 0.0001220548999967393,
+        "time_h": 0.725
+      },
+      {
+        "mean_mmol_per_L": 0.3566022916042102,
+        "outlet_mmol_per_L": 0.0005236954263009711,
+        "time_h": 0.805
+      },
+      {
+        "mean_mmol_per_L": 0.3809919291444985,
+        "outlet_mmol_per_L": 0.001725160558309191,
+        "time_h": 0.885
+      },
+      {
+        "mean_mmol_per_L": 0.4037777994900016,
+        "outlet_mmol_per_L": 0.004597555467082672,
+        "time_h": 0.965
+      },
+      {
+        "mean_mmol_per_L": 0.4249566343970191,
+        "outlet_mmol_per_L": 0.010308238142431245,
+        "time_h": 1.045
+      },
+      {
+        "mean_mmol_per_L": 0.444469207589603,
+        "outlet_mmol_per_L": 0.020040948233616355,
+        "time_h": 1.125
+      },
+      {
+        "mean_mmol_per_L": 0.4622116295698319,
+        "outlet_mmol_per_L": 0.034601663494070546,
+        "time_h": 1.205
+      },
+      {
+        "mean_mmol_per_L": 0.47806362651086104,
+        "outlet_mmol_per_L": 0.054087773763195526,
+        "time_h": 1.285
+      },
+      {
+        "mean_mmol_per_L": 0.49192612267853036,
+        "outlet_mmol_per_L": 0.07777283923644976,
+        "time_h": 1.365
+      },
+      {
+        "mean_mmol_per_L": 0.5037560911718847,
+        "outlet_mmol_per_L": 0.10424829582793084,
+        "time_h": 1.445
+      },
+      {
+        "mean_mmol_per_L": 0.5135881630872371,
+        "outlet_mmol_per_L": 0.1317471017869029,
+        "time_h": 1.5250000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.5215382010229722,
+        "outlet_mmol_per_L": 0.1585163516953818,
+        "time_h": 1.605
+      },
+      {
+        "mean_mmol_per_L": 0.5277904890983782,
+        "outlet_mmol_per_L": 0.18311878358454534,
+        "time_h": 1.685
+      },
+      {
+        "mean_mmol_per_L": 0.5325745396389631,
+        "outlet_mmol_per_L": 0.2045989024163246,
+        "time_h": 1.7650000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.5361387539146439,
+        "outlet_mmol_per_L": 0.22251016645523347,
+        "time_h": 1.845
+      },
+      {
+        "mean_mmol_per_L": 0.5387268934307183,
+        "outlet_mmol_per_L": 0.2368401405446997,
+        "time_h": 1.925
+      },
+      {
+        "mean_mmol_per_L": 0.5405608288122563,
+        "outlet_mmol_per_L": 0.24788425749023651,
+        "time_h": 2.005
+      },
+      {
+        "mean_mmol_per_L": 0.5418305437221373,
+        "outlet_mmol_per_L": 0.25611237771552714,
+        "time_h": 2.085
+      },
+      {
+        "mean_mmol_per_L": 0.5426905854071241,
+        "outlet_mmol_per_L": 0.26205649153577837,
+        "time_h": 2.165
+      },
+      {
+        "mean_mmol_per_L": 0.5432612541796011,
+        "outlet_mmol_per_L": 0.26623158710707073,
+        "time_h": 2.245
+      },
+      {
+        "mean_mmol_per_L": 0.5436326561855145,
+        "outlet_mmol_per_L": 0.26908970767559626,
+        "time_h": 2.325
+      },
+      {
+        "mean_mmol_per_L": 0.5438700236963295,
+        "outlet_mmol_per_L": 0.27100068898761986,
+        "time_h": 2.4050000000000002
+      },
+      {
+        "mean_mmol_per_L": 0.5440191690916312,
+        "outlet_mmol_per_L": 0.27225101054889367,
+        "time_h": 2.485
+      },
+      {
+        "mean_mmol_per_L": 0.5441113999074426,
+        "outlet_mmol_per_L": 0.27305290612651584,
+        "time_h": 2.565
+      },
+      {
+        "mean_mmol_per_L": 0.5441675896316561,
+        "outlet_mmol_per_L": 0.27355781273405183,
+        "time_h": 2.645
+      },
+      {
+        "mean_mmol_per_L": 0.5442013463922263,
+        "outlet_mmol_per_L": 0.273870350145996,
+        "time_h": 2.725
+      },
+      {
+        "mean_mmol_per_L": 0.5442213619780552,
+        "outlet_mmol_per_L": 0.2740607793341396,
+        "time_h": 2.805
+      },
+      {
+        "mean_mmol_per_L": 0.5442330848441618,
+        "outlet_mmol_per_L": 0.2741751191421572,
+        "time_h": 2.8850000000000002
+      },
+      {
+        "mean_mmol_per_L": 0.544239871981489,
+        "outlet_mmol_per_L": 0.274242842839601,
+        "time_h": 2.965
+      },
+      {
+        "mean_mmol_per_L": 0.544243759145353,
+        "outlet_mmol_per_L": 0.27428244965579196,
+        "time_h": 3.045
+      },
+      {
+        "mean_mmol_per_L": 0.5442459628670192,
+        "outlet_mmol_per_L": 0.27430534021799896,
+        "time_h": 3.125
+      },
+      {
+        "mean_mmol_per_L": 0.5442472003020781,
+        "outlet_mmol_per_L": 0.2743184241901875,
+        "time_h": 3.205
+      },
+      {
+        "mean_mmol_per_L": 0.5442478889151494,
+        "outlet_mmol_per_L": 0.27432582586976173,
+        "time_h": 3.285
+      },
+      {
+        "mean_mmol_per_L": 0.5442482688799489,
+        "outlet_mmol_per_L": 0.2743299726763835,
+        "time_h": 3.365
+      },
+      {
+        "mean_mmol_per_L": 0.5442484768682115,
+        "outlet_mmol_per_L": 0.27433227492614404,
+        "time_h": 3.4450000000000003
+      },
+      {
+        "mean_mmol_per_L": 0.544248589863153,
+        "outlet_mmol_per_L": 0.2743335422505725,
+        "time_h": 3.525
+      },
+      {
+        "mean_mmol_per_L": 0.5442486508151071,
+        "outlet_mmol_per_L": 0.2743342343089133,
+        "time_h": 3.605
+      },
+      {
+        "mean_mmol_per_L": 0.544248683473583,
+        "outlet_mmol_per_L": 0.2743346093881045,
+        "time_h": 3.685
+      },
+      {
+        "mean_mmol_per_L": 0.5442487008613357,
+        "outlet_mmol_per_L": 0.27433481123357956,
+        "time_h": 3.765
+      },
+      {
+        "mean_mmol_per_L": 0.544248710063271,
+        "outlet_mmol_per_L": 0.27433491913005487,
+        "time_h": 3.845
+      },
+      {
+        "mean_mmol_per_L": 0.5442487149054647,
+        "outlet_mmol_per_L": 0.2743349764428166,
+        "time_h": 3.9250000000000003
+      },
+      {
+        "mean_mmol_per_L": 0.5442487174397898,
+        "outlet_mmol_per_L": 0.2743350067052095,
+        "time_h": 4.005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487187594472,
+        "outlet_mmol_per_L": 0.27433502259449644,
+        "time_h": 4.085
+      },
+      {
+        "mean_mmol_per_L": 0.5442487194432841,
+        "outlet_mmol_per_L": 0.2743350308927442,
+        "time_h": 4.165
+      },
+      {
+        "mean_mmol_per_L": 0.5442487197960145,
+        "outlet_mmol_per_L": 0.27433503520467645,
+        "time_h": 4.245
+      },
+      {
+        "mean_mmol_per_L": 0.5442487199771618,
+        "outlet_mmol_per_L": 0.27433503743452575,
+        "time_h": 4.325
+      },
+      {
+        "mean_mmol_per_L": 0.5442487200698051,
+        "outlet_mmol_per_L": 0.2743350385824261,
+        "time_h": 4.405
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201169979,
+        "outlet_mmol_per_L": 0.27433503917080615,
+        "time_h": 4.485
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201409475,
+        "outlet_mmol_per_L": 0.27433503947115806,
+        "time_h": 4.565
+      },
+      {
+        "mean_mmol_per_L": 0.544248720153058,
+        "outlet_mmol_per_L": 0.27433503962388267,
+        "time_h": 4.6450000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201591609,
+        "outlet_mmol_per_L": 0.2743350397012534,
+        "time_h": 4.7250000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201622263,
+        "outlet_mmol_per_L": 0.2743350397403113,
+        "time_h": 4.805
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201637611,
+        "outlet_mmol_per_L": 0.2743350397599622,
+        "time_h": 4.885
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201645273,
+        "outlet_mmol_per_L": 0.2743350397698171,
+        "time_h": 4.965
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201649087,
+        "outlet_mmol_per_L": 0.2743350397747442,
+        "time_h": 5.045
+      },
+      {
+        "mean_mmol_per_L": 0.544248720165098,
+        "outlet_mmol_per_L": 0.2743350397772003,
+        "time_h": 5.125
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201651915,
+        "outlet_mmol_per_L": 0.27433503977842116,
+        "time_h": 5.205
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652377,
+        "outlet_mmol_per_L": 0.27433503977902624,
+        "time_h": 5.285
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652605,
+        "outlet_mmol_per_L": 0.27433503977932533,
+        "time_h": 5.365
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652715,
+        "outlet_mmol_per_L": 0.27433503977947277,
+        "time_h": 5.445
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652769,
+        "outlet_mmol_per_L": 0.2743350397795451,
+        "time_h": 5.525
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652795,
+        "outlet_mmol_per_L": 0.2743350397795805,
+        "time_h": 5.605
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652807,
+        "outlet_mmol_per_L": 0.27433503977959756,
+        "time_h": 5.6850000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652813,
+        "outlet_mmol_per_L": 0.27433503977960577,
+        "time_h": 5.765
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652815,
+        "outlet_mmol_per_L": 0.27433503977960955,
+        "time_h": 5.845
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961116,
+        "time_h": 5.925
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.085
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.165
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.245
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.325
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.405
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.485
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.565
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.6450000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.7250000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.805
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.885
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 6.965
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.045
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.125
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.205
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.285
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.365
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.445
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.525
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.605
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.6850000000000005
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.765000000000001
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.845
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 7.925
+      },
+      {
+        "mean_mmol_per_L": 0.5442487201652816,
+        "outlet_mmol_per_L": 0.27433503977961166,
+        "time_h": 8.0
+      }
+    ]
+  }
+}

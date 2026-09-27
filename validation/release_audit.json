@@ -1,0 +1,192 @@
+{
+  "benchmark_result_file": "example_run/benchmark.json",
+  "book_included": false,
+  "browser": {
+    "browser": "headless system Chromium via Playwright; offline document harness",
+    "checks": [
+      "UI click with explicit test fetch bridge computed high_early_repair through the real local HTTP endpoint.",
+      "Browser JSON export contains the computed scenario and trajectory.",
+      "UI lab button executed through test bridge: Hidden-state policy",
+      "UI lab button executed through test bridge: Physical ledgers",
+      "UI lab button executed through test bridge: Information and decoder",
+      "UI lab button executed through test bridge: Model challenge",
+      "UI lab button executed through test bridge: Negative control",
+      "UI lab button executed through test bridge: Measurement design",
+      "Standalone offline HTML loaded, rendered model table and changed the selected trajectory."
+    ],
+    "fetch_transport": "Test-only exposed bridge delegates requests to the real local HTTP server. Source HTML is not modified in the release. Native browser transport and CSP execution are not end-to-end verified.",
+    "native_loopback_browser_navigation": "BLOCKED_BY_ADMINISTRATOR; not bypassed or claimed successful",
+    "page_errors": [],
+    "scope": "Real desktop browser smoke tests on this Linux host; not cross-browser/mobile/clinical validation.",
+    "status": "PASS_WITH_ENVIRONMENT_LIMITATION"
+  },
+  "date": "2026-09-26",
+  "documentation": {
+    "docx_structure_valid": true,
+    "editable_text_cjk_matches": 0,
+    "english_chapter_labs": 18,
+    "file": "docs/HepatoGenesis_Engineering_Guide_EN.docx",
+    "guide_pages_rendered": 17,
+    "pages_visually_inspected": 17
+  },
+  "edition": "English",
+  "executed_platform": "Linux",
+  "executed_python": "3.13.5",
+  "finite_solver_scope": "Exact for declared finite transition, observation, horizon and conservative worst-step budget semantics only.",
+  "font_files_included": false,
+  "known_limits": [
+    "Synthetic model-selection generator favors the generating model; negative control is also provided.",
+    "Native browser navigation to loopback blocked by environment; renderer and real local HTTP tested through an explicit bridge, not native transport end-to-end.",
+    "Windows/macOS and hosted GitHub CI not executed here.",
+    "Hashes require an independent trusted copy to establish external integrity.",
+    "No live upstream API integration; HepatoScholar adapter tested on an original synthetic schema fixture.",
+    "No external publication or deployment performed."
+  ],
+  "license": "Apache-2.0",
+  "mass_energy_scope": "Explicit synthetic units; normalized reserve is not converted to joules.",
+  "negative_control_result_file": "example_run/negative_control.json",
+  "numerical_crosscheck": {
+    "derivative_states": 200,
+    "maximum_clearance_error": 3.2451819009793326e-12,
+    "maximum_derivative_error": 0.0,
+    "maximum_endpoint_error": 5.222600130139199e-12,
+    "new_implementation": "stdlib segmented fixed-step RK4, max step 0.025",
+    "reference_implementation": "SciPy solve_ivp adaptive method, tighter tolerances",
+    "scenarios": [
+      {
+        "clearance_error": 0.0,
+        "max_state_error": 3.858552366509116e-12,
+        "new_final": [
+          0.9535434627113232,
+          0.15245815790493875,
+          0.9573148641636378
+        ],
+        "reference_final": [
+          0.9535434627100096,
+          0.1524581579087973,
+          0.9573148641625069
+        ],
+        "scenario": "low_history"
+      },
+      {
+        "clearance_error": 0.0,
+        "max_state_error": 5.222600130139199e-12,
+        "new_final": [
+          0.7829144081099964,
+          0.5705135482912794,
+          0.8415713421034935
+        ],
+        "reference_final": [
+          0.7829144081076982,
+          0.570513548296502,
+          0.8415713421021854
+        ],
+        "scenario": "middle_history"
+      },
+      {
+        "clearance_error": 0.0,
+        "max_state_error": 3.381739333008227e-12,
+        "new_final": [
+          0.5971026844100271,
+          1.0052717104523246,
+          0.7499333022578916
+        ],
+        "reference_final": [
+          0.5971026844086682,
+          1.0052717104557063,
+          0.7499333022572989
+        ],
+        "scenario": "high_history"
+      },
+      {
+        "clearance_error": 2.9263258483069876e-12,
+        "max_state_error": 5.393602231507089e-13,
+        "new_final": [
+          0.9744967329653969,
+          0.08871463077138264,
+          0.9756732785075145
+        ],
+        "reference_final": [
+          0.974496732965236,
+          0.088714630771922,
+          0.9756732785073604
+        ],
+        "scenario": "high_early_repair"
+      },
+      {
+        "clearance_error": 3.2451819009793326e-12,
+        "max_state_error": 6.492306692251759e-13,
+        "new_final": [
+          0.9517363824179561,
+          0.1522967912525187,
+          0.9467303234399096
+        ],
+        "reference_final": [
+          0.9517363824180924,
+          0.15229679125316792,
+          0.9467303234396245
+        ],
+        "scenario": "high_late_repair"
+      },
+      {
+        "clearance_error": 0.0,
+        "max_state_error": 4.139799614222284e-12,
+        "new_final": [
+          0.5825666261887454,
+          1.0418390915883458,
+          0.7435937721619117
+        ],
+        "reference_final": [
+          0.5825666261871145,
+          1.0418390915924856,
+          0.7435937721612143
+        ],
+        "scenario": "high_delayed_pulse"
+      }
+    ],
+    "scope": "Numerical cross-implementation agreement on the same equations, not independent experimental validation.",
+    "source_sha256": "729d4854f241280a377a14e284db213e7d39f3a0c989a2d4a4391039fdbdb70c",
+    "source_version": "book teaching model 2.1"
+  },
+  "packaging": {
+    "compared_payload_files": 23,
+    "cross_platform_executions": "NOT_RUN",
+    "dist_sha256": {
+      "DIKWP_HepatoGenesis_Lab.pyz": "bf8517497d7b99f70f215407950a7e1988fdf691d3fdd3644e0eb4abaced1984",
+      "dikwp_hepatogenesis_lab-1.0.0-py3-none-any.whl": "40124f35c3ce7c3e00709fb36b5a3d418972101a5aa757246b79cd809624203d"
+    },
+    "manifest_sha256": "45699985e0b8bca62fbabad76a9a750140a95121915f3d4e01a7d57ef8ee927d",
+    "platform_tested": "Linux, Python 3.13.5",
+    "remote_publication": "NOT_PERFORMED",
+    "runtime_source_sha256": "5bbf0be17d88c2b5ea9a0013bab784bbc9ab13c786274a616b97fc81babad0ea",
+    "source_replay_identical": true,
+    "wheel_demo": "PASS: complete capsule with zero sensitivity samples; exact runtime source identity agrees",
+    "wheel_install": "PASS: final wheel force-reinstalled without index or dependencies into an isolated virtual environment; invoked outside source root",
+    "wheel_manifest_sha256": "9bff455459916451855e03d89e83094b77ff8a65cb570a3547f178ba9c1a1c2c",
+    "zipapp_invalid_cli_exit_status": 2,
+    "zipapp_replay_identical": true
+  },
+  "python_required": "3.10+",
+  "research_scope": "Independent educational software companion to A Brief History of the Liver by Yucong Duan and Zhongdao Wu. Not a clinical product or verified new-field theory.",
+  "runtime_third_party_dependencies": [],
+  "source_runtime_identity": "5bbf0be17d88c2b5ea9a0013bab784bbc9ab13c786274a616b97fc81babad0ea",
+  "system": "DIKWP HepatoGenesis Lab",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "platform": "Linux",
+    "python": "3.13.5",
+    "scope": "Local automated tests of this release, not upstream repository tests or clinical validation.",
+    "skipped": 0,
+    "successful": true,
+    "tests_run": 133
+  },
+  "upstream_inspection": {
+    "fully_read_code_modules": 2,
+    "repositories": 6,
+    "scope": "Selected README/tree and named source objects; not an account-wide audit or performance ranking.",
+    "upstream_runtime_tests": "NOT_RUN"
+  },
+  "upstream_source_redistributed": false,
+  "version": "1.0.0"
+}

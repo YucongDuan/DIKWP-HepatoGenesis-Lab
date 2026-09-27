@@ -1,0 +1,19 @@
+{
+  "aggregate_sha256": "5bbf0be17d88c2b5ea9a0013bab784bbc9ab13c786274a616b97fc81babad0ea",
+  "file_hashes": {
+    "__init__.py": "bb22bf0fdb53eeb1447cbc98bc7d8a4455505bcfed614015186c2afa5b986ef0",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "assets/chapters.json": "9e6d6f5765de1189a039c9a09a632dd451815bb592066a80e8addf5c1edf8079",
+    "assets/live.html": "a9bcb9cc61cc4c3aa7e22a59d54071c2cb40b38077624d05f4129d59e9381482",
+    "assets/report.html": "9c0e2a0e8d3941c93813f7c1f8ec2033a22801af0a768b710ac9f3799e7583a4",
+    "capsule.py": "589499343c4ee9d4c50b791d2a39cf927deec9142be3a774528607272803cc53",
+    "cli.py": "2279e0de5bece98b17a1a51f441948521760d63f95fa8c3c862919d5f3eaa837",
+    "common.py": "1fe626182f1d343dec39a191ddb7ab47a5f5a24f18454d6db0dec86176ff777e",
+    "dynamics.py": "d0b1cfe9965e57ed62862c5a9f39368647d65555199b53a6ff7ae587af9afb5c",
+    "evidence.py": "b2608dde2d09c7f424066b4273ba18d93403f4cbbb67609d61a4996d8ed5fe04",
+    "experiments.py": "1e68a78edcac50aea26f9f264f134973515f04f2e5d78d4b66ff8664ce953093",
+    "finite.py": "b07263d9215428176e4b46483033962a17ff6e89cecd46dfc409cd06273a5637",
+    "physics.py": "fdbb22cbb8903a3d4bdb1ec8652b2eb6905823eb8810e00ddd9d0adab9e0cb13",
+    "server.py": "42be68444c2cb3976708ea9f793317712a7382353cdb1d68ebda97023359ab84"
+  }
+}

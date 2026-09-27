@@ -1,0 +1,7 @@
+{
+  "wheel": "dikwp_hepatogenesis_lab-1.0.0-py3-none-any.whl",
+  "sha256": "0407b4046dfdeddb45b1f54ccd503cfc870d61cf1693bada668b4b5849a3ee2d",
+  "returncode": 0,
+  "stdout": "{\n  \"system\": \"DIKWP HepatoGenesis Lab\",\n  \"version\": \"1.0.0\",\n  \"python\": \"3.12.14\",\n  \"supported\": true,\n  \"runtime_dependencies\": [],\n  \"network_calls_required\": false,\n  \"source\": \"5bbf0be17d88c2b5ea9a0013bab784bbc9ab13c786274a616b97fc81babad0ea\",\n  \"scope\": \"Synthetic research and education only; not clinically calibrated.\"\n}\n",
+  "date": "2026-09-27"
+}

@@ -1,0 +1,10 @@
+{
+  "tests_run": 133,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "python": "3.13.5",
+  "platform": "Linux",
+  "scope": "Local automated tests of this release, not upstream repository tests or clinical validation."
+}

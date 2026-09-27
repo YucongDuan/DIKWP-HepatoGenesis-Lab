@@ -1,0 +1,16 @@
+{
+  "scenario": {
+    "name": "high_history",
+    "memory": 1.6,
+    "capacity": 0.8,
+    "reserve": 0.8,
+    "pulse_start": 5.0,
+    "pulse_end": 9.0,
+    "pulse_height": 0.3,
+    "repair_start": 0.0,
+    "repair_end": 0.0,
+    "repair_multiplier": 1.0,
+    "support": 1.0,
+    "horizon": 60.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "compared_payload_files": 23,
+  "cross_platform_executions": "NOT_RUN",
+  "dist_sha256": {
+    "DIKWP_HepatoGenesis_Lab.pyz": "bf8517497d7b99f70f215407950a7e1988fdf691d3fdd3644e0eb4abaced1984",
+    "dikwp_hepatogenesis_lab-1.0.0-py3-none-any.whl": "40124f35c3ce7c3e00709fb36b5a3d418972101a5aa757246b79cd809624203d"
+  },
+  "manifest_sha256": "45699985e0b8bca62fbabad76a9a750140a95121915f3d4e01a7d57ef8ee927d",
+  "platform_tested": "Linux, Python 3.13.5",
+  "remote_publication": "NOT_PERFORMED",
+  "runtime_source_sha256": "5bbf0be17d88c2b5ea9a0013bab784bbc9ab13c786274a616b97fc81babad0ea",
+  "source_replay_identical": true,
+  "wheel_demo": "PASS: complete capsule with zero sensitivity samples; exact runtime source identity agrees",
+  "wheel_install": "PASS: final wheel force-reinstalled without index or dependencies into an isolated virtual environment; invoked outside source root",
+  "wheel_manifest_sha256": "9bff455459916451855e03d89e83094b77ff8a65cb570a3547f178ba9c1a1c2c",
+  "zipapp_invalid_cli_exit_status": 2,
+  "zipapp_replay_identical": true
+}

@@ -1,0 +1,88 @@
+{
+  "review_scope": "Six targeted repositories; not an account-wide code audit. Full source was read only for two named modules. No upstream runtime was executed.",
+  "retrieval": "Connected GitHub GET and public web pages. Binary archive retrieval from the runtime was unavailable; no successful cloning is claimed.",
+  "identity_notes": "Git tree and blob identifiers below are not presented as commit identifiers. Main-branch URLs can change.",
+  "repositories": [
+    {
+      "repository": "YucongDuan/DIKWP-HepatoScholar-OS",
+      "inspection": "README and recursive root tree",
+      "git_tree_sha": "9fe20a90ac47ffe39c6e1749b5ecffd3eb8ae988",
+      "source_path": "README.md",
+      "git_blob_sha": "966421268097b8544be5c01fb4468ccce6a6d230",
+      "observed": "Research corpus organization, DIKWP literature ledger and gap mining. Runnable distribution is a root ZIP.",
+      "limit": "The inspected tree does not expose an installable source root. ZIP internals were not inspected; absence of numerical code inside it is not established.",
+      "extension": "Flat installable source tree, single-file executable, tests and executable chapter labs.",
+      "checked_date": "2026-09-26",
+      "upstream_runtime_tests": "NOT_RUN",
+      "url": "https://github.com/YucongDuan/DIKWP-HepatoScholar-OS",
+      "file_url": "https://github.com/YucongDuan/DIKWP-HepatoScholar-OS/blob/main/README.md"
+    },
+    {
+      "repository": "YucongDuan/DIKWP-HepatoScholar-Studio-V2",
+      "inspection": "README, source tree and full analysis CLI",
+      "git_tree_sha": "ac7c7303be205937c02301a54dcd15781ee77101",
+      "source_path": "source-distribution/dikwp_hepatoscholar_v2_system_package-2888f5267e/source/cli/hepatoscholar_cli.py",
+      "git_blob_sha": "c67252ea3f4ad8f686137b4b2ed2907841c33275",
+      "observed": "closure() subtracts fixed missingness and contradiction penalties from an input quality value. analyze() exports records, roles and seeded claims.",
+      "limit": "This inspected numerical score is not calibrated confidence. Nonfinite values are not rejected along the inspected path; isolated NaN expression yields 100. Contradictory evidence is mechanically penalized without assessing study validity.",
+      "extension": "Strict finite JSON, no truth score, competing executable models, negative controls, a synthetic-record file adapter preserving quality only as an annotation.",
+      "checked_date": "2026-09-26",
+      "upstream_runtime_tests": "NOT_RUN",
+      "url": "https://github.com/YucongDuan/DIKWP-HepatoScholar-Studio-V2",
+      "file_url": "https://github.com/YucongDuan/DIKWP-HepatoScholar-Studio-V2/blob/main/source-distribution/dikwp_hepatoscholar_v2_system_package-2888f5267e/source/cli/hepatoscholar_cli.py"
+    },
+    {
+      "repository": "YucongDuan/DIKWP-HepatoCarePath-OS",
+      "inspection": "README and recursive root tree",
+      "git_tree_sha": "9e19c326671484dd016a06259bcf2121e6c62542",
+      "source_path": "README.md",
+      "git_blob_sha": "601171c94db220a3c56914613aed67f47e1a8e26",
+      "observed": "Liver workflow, triage routing, preparation and handoff governance; explicitly not diagnosis or prescribing. Source distributed as ZIP.",
+      "limit": "Clinical workflow governance is a different problem from a book-based experimental mechanism engine. Archive internals were not inspected.",
+      "extension": "Separate educational model research from patient workflows; no automated clinical bridge or imported patient records.",
+      "checked_date": "2026-09-26",
+      "upstream_runtime_tests": "NOT_RUN",
+      "url": "https://github.com/YucongDuan/DIKWP-HepatoCarePath-OS",
+      "file_url": "https://github.com/YucongDuan/DIKWP-HepatoCarePath-OS/blob/main/README.md"
+    },
+    {
+      "repository": "YucongDuan/DIKWP-ASCENT-v0.2.0",
+      "inspection": "README, module directory and full evaluator.py",
+      "source_path": "src/dikwp_ascent/evaluator.py",
+      "git_blob_sha": "57f9cd466f7df1b2fd27060bd7aa2202dfe9cb68",
+      "observed": "Actual numerical evaluation, exact integer-knapsack reference, frozen-model comparisons, per-world nonregression and descriptive paired bootstrap. README documents explicit review and rollback.",
+      "limit": "Inspected evaluator handles basis-regression rows and scheduling cases. It is not a history-dependent organ-model evaluator or partial-observation viability solver. Row-level resampling should not be reused blindly for autocorrelated time points.",
+      "extension": "Equally weighted whole-trajectory losses, train/development/audit separation, mechanism alternatives, finite belief-state game and correction-aware lineage. No claim that ASCENT lacked numerical computation.",
+      "checked_date": "2026-09-26",
+      "upstream_runtime_tests": "NOT_RUN",
+      "url": "https://github.com/YucongDuan/DIKWP-ASCENT-v0.2.0",
+      "file_url": "https://github.com/YucongDuan/DIKWP-ASCENT-v0.2.0/blob/main/src/dikwp_ascent/evaluator.py"
+    },
+    {
+      "repository": "YucongDuan/NEGENESIS-OMEGA",
+      "inspection": "README and recursive root tree",
+      "git_tree_sha": "440cf568f6dc08882752cf1e8446cd6b6a43c06f",
+      "source_path": "README.md",
+      "git_blob_sha": "46203875a6ab91b51037725f26d8c6a4c419c956",
+      "observed": "Memory, coadaptation and accounting themes; explicit distinction between local order, thermodynamic entropy and moral value. Root ZIP carries distribution.",
+      "limit": "README-level conceptual scope cannot establish correctness of a numerical physical implementation; archive internals were not inspected.",
+      "extension": "Dimensioned finite-volume mass balance, separate energy balance and reaction-direction check, without equating reserve with joules or local order with virtue.",
+      "checked_date": "2026-09-26",
+      "upstream_runtime_tests": "NOT_RUN",
+      "url": "https://github.com/YucongDuan/NEGENESIS-OMEGA",
+      "file_url": "https://github.com/YucongDuan/NEGENESIS-OMEGA/blob/main/README.md"
+    },
+    {
+      "repository": "YucongDuan/DIKWP-ProofLedger-OS",
+      "inspection": "README only",
+      "source_path": "README.md",
+      "observed": "Claim-evidence mapping, missing evidence, demotion, correction and reversible review; expressly a local verification scaffold rather than a truth oracle.",
+      "limit": "A declared ledger does not by itself show how numerical experiments, source corrections and downstream proposals are connected. Runtime source was not inspected.",
+      "extension": "Executable SQLite dependency DAG, immutable node versions, typed scopes, recursive correction propagation and externally anchored manifest verification.",
+      "checked_date": "2026-09-26",
+      "upstream_runtime_tests": "NOT_RUN",
+      "url": "https://github.com/YucongDuan/DIKWP-ProofLedger-OS",
+      "file_url": "https://github.com/YucongDuan/DIKWP-ProofLedger-OS/blob/main/README.md"
+    }
+  ]
+}

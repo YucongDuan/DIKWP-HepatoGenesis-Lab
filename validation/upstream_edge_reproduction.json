@@ -1,0 +1,9 @@
+{
+  "corresponding_inspected_threshold_level": "S4",
+  "expression": "max(0, min(100, float(\"nan\") - 0 - 0))",
+  "git_blob_sha": "c67252ea3f4ad8f686137b4b2ed2907841c33275",
+  "new_finite_validator_rejected_input": true,
+  "observed_score": 100,
+  "scope": "Isolated expression reproduction from the inspected V2 closure path; no full upstream repository execution.",
+  "upstream_repository": "YucongDuan/DIKWP-HepatoScholar-Studio-V2"
+}

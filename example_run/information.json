@@ -1,0 +1,7 @@
+{
+  "aligned_mutual_information_bits": 1.0,
+  "identity_decoder_accuracy_aligned": 1.0,
+  "identity_decoder_accuracy_inverted": 0.0,
+  "inverted_mutual_information_bits": 1.0,
+  "scope": "Two exactly specified binary distributions; information quantity alone does not choose a task decoder."
+}

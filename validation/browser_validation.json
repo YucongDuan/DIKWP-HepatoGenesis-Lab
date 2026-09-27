@@ -1,0 +1,19 @@
+{
+  "browser": "headless system Chromium via Playwright; offline document harness",
+  "checks": [
+    "UI click with explicit test fetch bridge computed high_early_repair through the real local HTTP endpoint.",
+    "Browser JSON export contains the computed scenario and trajectory.",
+    "UI lab button executed through test bridge: Hidden-state policy",
+    "UI lab button executed through test bridge: Physical ledgers",
+    "UI lab button executed through test bridge: Information and decoder",
+    "UI lab button executed through test bridge: Model challenge",
+    "UI lab button executed through test bridge: Negative control",
+    "UI lab button executed through test bridge: Measurement design",
+    "Standalone offline HTML loaded, rendered model table and changed the selected trajectory."
+  ],
+  "page_errors": [],
+  "status": "PASS_WITH_ENVIRONMENT_LIMITATION",
+  "native_loopback_browser_navigation": "BLOCKED_BY_ADMINISTRATOR; not bypassed or claimed successful",
+  "fetch_transport": "Test-only exposed bridge delegates requests to the real local HTTP server. Source HTML is not modified in the release. Native browser transport and CSP execution are not end-to-end verified.",
+  "scope": "Real desktop browser smoke tests on this Linux host; not cross-browser/mobile/clinical validation."
+}

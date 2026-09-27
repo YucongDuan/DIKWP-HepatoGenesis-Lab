@@ -1,0 +1,189 @@
+{
+  "book": "A Brief History of the Liver",
+  "authors": [
+    "Yucong Duan",
+    "Zhongdao Wu"
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "english_title": "The Quiet Center",
+      "objective": "Identify the observation boundary before interpreting the organ.",
+      "lab": "information",
+      "command": "python -m hepatogenesis information --out chapter_01.json",
+      "exercise": "Change a decoder while preserving the measured mutual information. Explain why equal information quantity does not imply equal task performance.",
+      "book_chapter_source_sha256": "c63873bcf01ee12fd9ac2e5d3e04a64af400f153a19d3b8f633236ec16609723",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 2,
+      "english_title": "The Universe Before the Liver",
+      "objective": "Separate material ancestry from a sufficient explanation of organ formation.",
+      "lab": "physics",
+      "command": "python -m hepatogenesis physics --out chapter_02.json",
+      "exercise": "Construct a first-law ledger. Identify which steps between cosmic matter and an organ are not simulated here.",
+      "book_chapter_source_sha256": "0b58c7f52be67953fc8447db7540e21e0aca8142dfed3c4d6041cafb2a93cd0d",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 3,
+      "english_title": "Water and Carbon",
+      "objective": "Distinguish reaction feasibility, activity, coupling and sustained organization.",
+      "lab": "physics",
+      "command": "python -m hepatogenesis physics --out chapter_03.json",
+      "exercise": "Reverse the sign of a reaction free-energy difference without reversing its flux. Explain the resulting negative production in the uncoupled audit.",
+      "book_chapter_source_sha256": "369102da461f5665d8f3c9b805556ac2afb8d088f58426933892bb2d246edfa6",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 4,
+      "english_title": "The First Inside and Outside",
+      "objective": "Study why a boundary and an input-output balance matter.",
+      "lab": "physics",
+      "command": "python -m hepatogenesis physics --out chapter_04.json",
+      "exercise": "Compare stored amount with cumulative inflow and outflow in an open transport chain. Do not label this a simulation of abiogenesis.",
+      "book_chapter_source_sha256": "42bb368724633f5202e2bceaa0dd8b5d334012e04dc687fdbab23a35d744edff",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 5,
+      "english_title": "From Cells to Organs",
+      "objective": "Treat homology, functional analogy and abstraction as different claims.",
+      "lab": "finite",
+      "command": "python -m hepatogenesis finite --out chapter_05.json",
+      "exercise": "Find states that share an observation but differ in task constraints. Discuss why functional similarity alone does not establish a shared evolutionary origin.",
+      "book_chapter_source_sha256": "4a3bcc54b6dc1b03e2a9026d3646c6f6c5504af4027827aff1a5caa3b562aabb",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 6,
+      "english_title": "How a Body Grows a Liver",
+      "objective": "Make timing and historical state explicit.",
+      "lab": "compare",
+      "command": "python -m hepatogenesis compare --out chapter_06.json",
+      "exercise": "Compare early and late repair intervals, holding the declared multiplier-time proxy equal. Identify why this is not equal biological dose.",
+      "book_chapter_source_sha256": "908f93ccca865a0b4b18565ea2339a8646835818e20801ca293ae2e284ad818d",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 7,
+      "english_title": "Two Networks of Transport",
+      "objective": "Resolve geometry without losing the mass ledger.",
+      "lab": "physics",
+      "command": "python -m hepatogenesis physics --out chapter_07.json",
+      "exercise": "Compare a 24-cell chain with a single well-mixed compartment under equal volume, flow and reaction parameters.",
+      "book_chapter_source_sha256": "47fd6790b0ede070400bc2738f88a993a15b9f4b76ad5f7e423e6ed0ec6ac7ce",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 8,
+      "english_title": "The Timing of Hunger and Satiety",
+      "objective": "Separate current stores from flux and trajectory.",
+      "lab": "simulate",
+      "command": "python -m hepatogenesis simulate --out chapter_08.json",
+      "exercise": "Compare identical initial capacity/reserve and different burden. Report all input conditions and the observation horizon.",
+      "book_chapter_source_sha256": "0afbb0635025e05c9dc54a4176ef0b7e9876d9499984649513dee33651e50a1e",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 9,
+      "english_title": "Selection and Transformation of Matter",
+      "objective": "Distinguish removal from a compartment from material disappearance.",
+      "lab": "physics",
+      "command": "python -m hepatogenesis physics --out chapter_09.json",
+      "exercise": "Account separately for stored, exported and reacted material; verify the residual numerically.",
+      "book_chapter_source_sha256": "8c6ba382ff2b8ed3a974a6bbb296a3cf690db8c7c1b319a00d04a3c3f537650b",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 10,
+      "english_title": "Between Tolerance and Defense",
+      "objective": "Do not collapse an action objective into response magnitude.",
+      "lab": "finite",
+      "command": "python -m hepatogenesis finite --out chapter_10.json",
+      "exercise": "Use the goal, safe set and enabled actions as separate model fields. Explain why these are task labels, not immune-cell phenotypes.",
+      "book_chapter_source_sha256": "fefeaa280be4d7458ca9622f9f10887353e0434f0e52b021d5df039d2a316adf",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 11,
+      "english_title": "How Disease Acquires a History",
+      "objective": "Ask whether stored structure changes future behavior.",
+      "lab": "benchmark",
+      "command": "python -m hepatogenesis benchmark --out chapter_11.json",
+      "exercise": "Test dynamic, frozen and erased-history hypotheses with group-separated train/development/audit trajectories.",
+      "book_chapter_source_sha256": "2dbf0c02cfc2b631d1a35ca1948768bacf0b4fd9d4eb522066e65c650eb6d493",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 12,
+      "english_title": "Regeneration and Aging",
+      "objective": "Track renewal without declaring the entire system reset.",
+      "lab": "compare",
+      "command": "python -m hepatogenesis compare --out chapter_12.json",
+      "exercise": "Show which state components are reset by the erased-history hypothesis. Identify the difference between an assumption and a biological intervention.",
+      "book_chapter_source_sha256": "f0961722bb6d5b82773a5e36c91a34e87713e0a73fb4142a7fb0d32f0407dc58",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 13,
+      "english_title": "Energy Fields",
+      "objective": "Keep power, free energy, flux and temperature dimensionally distinct.",
+      "lab": "physics",
+      "command": "python -m hepatogenesis physics --out chapter_13.json",
+      "exercise": "Audit units and reaction direction. Explain why dimensionless reserve R cannot be silently relabeled as joules or ATP.",
+      "book_chapter_source_sha256": "9c0ce78eea9718357b2285761aafd1513b835c25eafd409cc84281bca3d7adff",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 14,
+      "english_title": "Information Fields",
+      "objective": "Relate distinguishability to an observation/decoder/task contract.",
+      "lab": "information",
+      "command": "python -m hepatogenesis information --out chapter_14.json",
+      "exercise": "Reproduce the equal-one-bit/different-decoder example. Form a testable hypothesis with a null model and failure condition.",
+      "book_chapter_source_sha256": "99701d5c3df84ca2ec7365b11a1b95fb712b5e4de2168bafc27e4beaa396a1ed",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 15,
+      "english_title": "Between Scales",
+      "objective": "Make the cost of coarse-graining visible.",
+      "lab": "finite",
+      "command": "python -m hepatogenesis finite --out chapter_15.json",
+      "exercise": "Compute the observation-only and constraint-aware partitions. State the finite model in which preservation holds.",
+      "book_chapter_source_sha256": "d7e1811d3985846815290f8f76042586731aa1091039100a22fdf8478ced8aad",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 16,
+      "english_title": "The Future Liver",
+      "objective": "Choose informative measurements without claiming a patient twin.",
+      "lab": "design",
+      "command": "python -m hepatogenesis design --out chapter_16.json",
+      "exercise": "Inspect the finite measurement-design ranking. Change the assumed noise and explain the limits of model separation.",
+      "book_chapter_source_sha256": "f4b5840f7ad7094f5ff787e78e616598c842384100fb274eb8272c144a3e9ba4",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 17,
+      "english_title": "Returning to the Ultimate",
+      "objective": "Require proposed explanations to risk failure.",
+      "lab": "benchmark",
+      "command": "python -m hepatogenesis benchmark --out chapter_17.json",
+      "exercise": "Run the negative control. Explain why a simpler model should survive when the history variable remains zero.",
+      "book_chapter_source_sha256": "48d8c6e11b0649e7799a64f319c9675642316947e7d1acf17384c58a80f37945",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    },
+    {
+      "chapter": 18,
+      "english_title": "An Open Future",
+      "objective": "Connect history, information and one feasible policy.",
+      "lab": "finite",
+      "command": "python -m hepatogenesis finite --out chapter_18.json",
+      "exercise": "Reproduce the hidden-state policy obstruction and its removal after an added observation. Distinguish exact finite reasoning from sampled continuous diagnostics.",
+      "book_chapter_source_sha256": "4487c56abdb6d9ea776fea30affcf449cc0a0f782a4fe373efae205ad6946715",
+      "coverage": "conceptual bridge and a runnable teaching exercise; not a simulation of every process in the chapter"
+    }
+  ]
+}

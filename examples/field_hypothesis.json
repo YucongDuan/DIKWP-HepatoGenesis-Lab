@@ -1,0 +1,12 @@
+{
+  "name": "Unvalidated additional-field proposal",
+  "degrees_of_freedom": "A scalar phi(x,t).",
+  "units": "Must be specified by a concrete proposal; no default physical unit is assigned.",
+  "evolution_equation": "A proposed diffusion-decay equation; parameters and boundary conditions must be specified before numerical use.",
+  "coupling": "A proposed coupling to an independently observable transport rate.",
+  "observable": "A measurement not defined solely by the fitted model residual.",
+  "null_model": "Known transport and reaction mechanisms with matched measurement noise.",
+  "discriminating_prediction": "A preregistered difference from the null under a controlled perturbation.",
+  "failure_condition": "No reproducible difference after sensitivity and confound checks.",
+  "status": "hypothesis"
+}

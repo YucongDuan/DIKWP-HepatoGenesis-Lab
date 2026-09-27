@@ -1,0 +1,103 @@
+{
+  "derivative_states": 200,
+  "maximum_clearance_error": 3.2451819009793326e-12,
+  "maximum_derivative_error": 0.0,
+  "maximum_endpoint_error": 5.222600130139199e-12,
+  "new_implementation": "stdlib segmented fixed-step RK4, max step 0.025",
+  "reference_implementation": "SciPy solve_ivp adaptive method, tighter tolerances",
+  "scenarios": [
+    {
+      "clearance_error": 0.0,
+      "max_state_error": 3.858552366509116e-12,
+      "new_final": [
+        0.9535434627113232,
+        0.15245815790493875,
+        0.9573148641636378
+      ],
+      "reference_final": [
+        0.9535434627100096,
+        0.1524581579087973,
+        0.9573148641625069
+      ],
+      "scenario": "low_history"
+    },
+    {
+      "clearance_error": 0.0,
+      "max_state_error": 5.222600130139199e-12,
+      "new_final": [
+        0.7829144081099964,
+        0.5705135482912794,
+        0.8415713421034935
+      ],
+      "reference_final": [
+        0.7829144081076982,
+        0.570513548296502,
+        0.8415713421021854
+      ],
+      "scenario": "middle_history"
+    },
+    {
+      "clearance_error": 0.0,
+      "max_state_error": 3.381739333008227e-12,
+      "new_final": [
+        0.5971026844100271,
+        1.0052717104523246,
+        0.7499333022578916
+      ],
+      "reference_final": [
+        0.5971026844086682,
+        1.0052717104557063,
+        0.7499333022572989
+      ],
+      "scenario": "high_history"
+    },
+    {
+      "clearance_error": 2.9263258483069876e-12,
+      "max_state_error": 5.393602231507089e-13,
+      "new_final": [
+        0.9744967329653969,
+        0.08871463077138264,
+        0.9756732785075145
+      ],
+      "reference_final": [
+        0.974496732965236,
+        0.088714630771922,
+        0.9756732785073604
+      ],
+      "scenario": "high_early_repair"
+    },
+    {
+      "clearance_error": 3.2451819009793326e-12,
+      "max_state_error": 6.492306692251759e-13,
+      "new_final": [
+        0.9517363824179561,
+        0.1522967912525187,
+        0.9467303234399096
+      ],
+      "reference_final": [
+        0.9517363824180924,
+        0.15229679125316792,
+        0.9467303234396245
+      ],
+      "scenario": "high_late_repair"
+    },
+    {
+      "clearance_error": 0.0,
+      "max_state_error": 4.139799614222284e-12,
+      "new_final": [
+        0.5825666261887454,
+        1.0418390915883458,
+        0.7435937721619117
+      ],
+      "reference_final": [
+        0.5825666261871145,
+        1.0418390915924856,
+        0.7435937721612143
+      ],
+      "scenario": "high_delayed_pulse"
+    }
+  ],
+  "scope": "Numerical cross-implementation agreement on the same equations, not independent experimental validation.",
+  "source_sha256": "729d4854f241280a377a14e284db213e7d39f3a0c989a2d4a4391039fdbdb70c",
+  "source_version": "book teaching model 2.1"
+}

@@ -1,0 +1,410 @@
+{
+  "candidate_designs": [
+    {
+      "channels": [
+        "C"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 0.0,
+      "predictions": {
+        "dynamic_history": [
+          0.8
+        ],
+        "erased_history": [
+          0.8
+        ],
+        "frozen_history": [
+          0.8
+        ]
+      },
+      "score_per_cost": 0.0,
+      "time": 0.0
+    },
+    {
+      "channels": [
+        "R"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 0.0,
+      "predictions": {
+        "dynamic_history": [
+          0.8
+        ],
+        "erased_history": [
+          0.8
+        ],
+        "frozen_history": [
+          0.8
+        ]
+      },
+      "score_per_cost": 0.0,
+      "time": 0.0
+    },
+    {
+      "channels": [
+        "C",
+        "R"
+      ],
+      "cost_proxy": 2,
+      "min_pair_standardized_distance_squared": 0.0,
+      "predictions": {
+        "dynamic_history": [
+          0.8,
+          0.8
+        ],
+        "erased_history": [
+          0.8,
+          0.8
+        ],
+        "frozen_history": [
+          0.8,
+          0.8
+        ]
+      },
+      "score_per_cost": 0.0,
+      "time": 0.0
+    },
+    {
+      "channels": [
+        "C"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 4.104382198138588,
+      "predictions": {
+        "dynamic_history": [
+          0.3248915804222191
+        ],
+        "erased_history": [
+          0.7704934163093298
+        ],
+        "frozen_history": [
+          0.3046323055138257
+        ]
+      },
+      "score_per_cost": 4.104382198138588,
+      "time": 10.0
+    },
+    {
+      "channels": [
+        "R"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 0.7915358774148326,
+      "predictions": {
+        "dynamic_history": [
+          0.646201808913078
+        ],
+        "erased_history": [
+          0.8021084094361236
+        ],
+        "frozen_history": [
+          0.6373049787055556
+        ]
+      },
+      "score_per_cost": 0.7915358774148326,
+      "time": 10.0
+    },
+    {
+      "channels": [
+        "C",
+        "R"
+      ],
+      "cost_proxy": 2,
+      "min_pair_standardized_distance_squared": 4.895918075553421,
+      "predictions": {
+        "dynamic_history": [
+          0.3248915804222191,
+          0.646201808913078
+        ],
+        "erased_history": [
+          0.7704934163093298,
+          0.8021084094361236
+        ],
+        "frozen_history": [
+          0.3046323055138257,
+          0.6373049787055556
+        ]
+      },
+      "score_per_cost": 2.4479590377767106,
+      "time": 10.0
+    },
+    {
+      "channels": [
+        "C"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 6.4904843972577835,
+      "predictions": {
+        "dynamic_history": [
+          0.42526514615933236
+        ],
+        "erased_history": [
+          0.995900707559145
+        ],
+        "frozen_history": [
+          0.3997887170585777
+        ]
+      },
+      "score_per_cost": 6.4904843972577835,
+      "time": 20.0
+    },
+    {
+      "channels": [
+        "R"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 0.6063932241053887,
+      "predictions": {
+        "dynamic_history": [
+          0.6786298072525129
+        ],
+        "erased_history": [
+          0.9657510919086417
+        ],
+        "frozen_history": [
+          0.6708426818258526
+        ]
+      },
+      "score_per_cost": 0.6063932241053887,
+      "time": 20.0
+    },
+    {
+      "channels": [
+        "C",
+        "R"
+      ],
+      "cost_proxy": 2,
+      "min_pair_standardized_distance_squared": 7.096877621363172,
+      "predictions": {
+        "dynamic_history": [
+          0.42526514615933236,
+          0.6786298072525129
+        ],
+        "erased_history": [
+          0.995900707559145,
+          0.9657510919086417
+        ],
+        "frozen_history": [
+          0.3997887170585777,
+          0.6708426818258526
+        ]
+      },
+      "score_per_cost": 3.548438810681586,
+      "time": 20.0
+    },
+    {
+      "channels": [
+        "C"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 32.57040762933522,
+      "predictions": {
+        "dynamic_history": [
+          0.46747209231047654
+        ],
+        "erased_history": [
+          0.9999516789479662
+        ],
+        "frozen_history": [
+          0.41040160288789035
+        ]
+      },
+      "score_per_cost": 32.57040762933522,
+      "time": 30.0
+    },
+    {
+      "channels": [
+        "R"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 3.2374598401919483,
+      "predictions": {
+        "dynamic_history": [
+          0.6967880477363877
+        ],
+        "erased_history": [
+          0.9968938013162696
+        ],
+        "frozen_history": [
+          0.6787951051193727
+        ]
+      },
+      "score_per_cost": 3.2374598401919483,
+      "time": 30.0
+    },
+    {
+      "channels": [
+        "C",
+        "R"
+      ],
+      "cost_proxy": 2,
+      "min_pair_standardized_distance_squared": 35.80786746952717,
+      "predictions": {
+        "dynamic_history": [
+          0.46747209231047654,
+          0.6967880477363877
+        ],
+        "erased_history": [
+          0.9999516789479662,
+          0.9968938013162696
+        ],
+        "frozen_history": [
+          0.41040160288789035,
+          0.6787951051193727
+        ]
+      },
+      "score_per_cost": 17.903933734763584,
+      "time": 30.0
+    },
+    {
+      "channels": [
+        "C"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 92.75736932931474,
+      "predictions": {
+        "dynamic_history": [
+          0.5080851656267107
+        ],
+        "erased_history": [
+          0.9999994604222624
+        ],
+        "frozen_history": [
+          0.4117745383162655
+        ]
+      },
+      "score_per_cost": 92.75736932931474,
+      "time": 40.0
+    },
+    {
+      "channels": [
+        "R"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 10.845778527661098,
+      "predictions": {
+        "dynamic_history": [
+          0.7128423666512731
+        ],
+        "erased_history": [
+          0.999741594015646
+        ],
+        "frozen_history": [
+          0.6799094370402271
+        ]
+      },
+      "score_per_cost": 10.845778527661098,
+      "time": 40.0
+    },
+    {
+      "channels": [
+        "C",
+        "R"
+      ],
+      "cost_proxy": 2,
+      "min_pair_standardized_distance_squared": 103.60314785697584,
+      "predictions": {
+        "dynamic_history": [
+          0.5080851656267107,
+          0.7128423666512731
+        ],
+        "erased_history": [
+          0.9999994604222624,
+          0.999741594015646
+        ],
+        "frozen_history": [
+          0.4117745383162655,
+          0.6799094370402271
+        ]
+      },
+      "score_per_cost": 51.80157392848792,
+      "time": 40.0
+    },
+    {
+      "channels": [
+        "C"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 342.70428802626395,
+      "predictions": {
+        "dynamic_history": [
+          0.5971026844306725
+        ],
+        "erased_history": [
+          0.9999999999333801
+        ],
+        "frozen_history": [
+          0.41197994459942866
+        ]
+      },
+      "score_per_cost": 342.70428802626395,
+      "time": 60.0
+    },
+    {
+      "channels": [
+        "R"
+      ],
+      "cost_proxy": 1,
+      "min_pair_standardized_distance_squared": 48.797671840321236,
+      "predictions": {
+        "dynamic_history": [
+          0.7499333022668936
+        ],
+        "erased_history": [
+          0.9999982553046225
+        ],
+        "frozen_history": [
+          0.6800779718759197
+        ]
+      },
+      "score_per_cost": 48.797671840321236,
+      "time": 60.0
+    },
+    {
+      "channels": [
+        "C",
+        "R"
+      ],
+      "cost_proxy": 2,
+      "min_pair_standardized_distance_squared": 391.5019598665852,
+      "predictions": {
+        "dynamic_history": [
+          0.5971026844306725,
+          0.7499333022668936
+        ],
+        "erased_history": [
+          0.9999999999333801,
+          0.9999982553046225
+        ],
+        "frozen_history": [
+          0.41197994459942866,
+          0.6800779718759197
+        ]
+      },
+      "score_per_cost": 195.7509799332926,
+      "time": 60.0
+    }
+  ],
+  "noise_assumption": 0.01,
+  "scope": "Finite model-separation design under common independent noise; no causal proof or clinical test recommendation.",
+  "selected": {
+    "channels": [
+      "C"
+    ],
+    "cost_proxy": 1,
+    "min_pair_standardized_distance_squared": 342.70428802626395,
+    "predictions": {
+      "dynamic_history": [
+        0.5971026844306725
+      ],
+      "erased_history": [
+        0.9999999999333801
+      ],
+      "frozen_history": [
+        0.41197994459942866
+      ]
+    },
+    "score_per_cost": 342.70428802626395,
+    "time": 60.0
+  }
+}

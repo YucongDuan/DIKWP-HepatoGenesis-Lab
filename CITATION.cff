@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Cite this software separately from the book and the inspected upstream projects."
+title: "DIKWP HepatoGenesis Lab: Executable Histories and Constraint-Aware Research"
+version: 1.0.0
+date-released: 2026-09-26
+type: software
+license: Apache-2.0
+authors:
+  - name: "HepatoGenesis Lab contributors"
+abstract: "An independently implemented English research companion for A Brief History of the Liver by Yucong Duan and Zhongdao Wu. Includes numerical histories, finite-model belief policies, physical accounting and correction-aware experiment capsules."
+keywords:
+  - DIKWP
+  - liver history
+  - reproducible research
+  - partial observation
+  - model discrimination
+url: "https://yucongduan.github.io/DIKWP-HepatoGenesis-Lab/"
+repository-code: "https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab"

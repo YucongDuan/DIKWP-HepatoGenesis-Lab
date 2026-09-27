@@ -1,0 +1,38 @@
+{
+  "high_delayed_pulse": {
+    "coarse_step": 0.05,
+    "fine_step": 0.025,
+    "maximum_terminal_difference": 6.284506248732669e-11,
+    "scope": "Step-refinement diagnostic, not a rigorous global error bound."
+  },
+  "high_early_repair": {
+    "coarse_step": 0.05,
+    "fine_step": 0.025,
+    "maximum_terminal_difference": 4.456213176240453e-11,
+    "scope": "Step-refinement diagnostic, not a rigorous global error bound."
+  },
+  "high_history": {
+    "coarse_step": 0.05,
+    "fine_step": 0.025,
+    "maximum_terminal_difference": 5.1382453847281795e-11,
+    "scope": "Step-refinement diagnostic, not a rigorous global error bound."
+  },
+  "high_late_repair": {
+    "coarse_step": 0.05,
+    "fine_step": 0.025,
+    "maximum_terminal_difference": 4.924149976659464e-11,
+    "scope": "Step-refinement diagnostic, not a rigorous global error bound."
+  },
+  "low_history": {
+    "coarse_step": 0.05,
+    "fine_step": 0.025,
+    "maximum_terminal_difference": 5.863648455672887e-11,
+    "scope": "Step-refinement diagnostic, not a rigorous global error bound."
+  },
+  "middle_history": {
+    "coarse_step": 0.05,
+    "fine_step": 0.025,
+    "maximum_terminal_difference": 7.928679934821048e-11,
+    "scope": "Step-refinement diagnostic, not a rigorous global error bound."
+  }
+}

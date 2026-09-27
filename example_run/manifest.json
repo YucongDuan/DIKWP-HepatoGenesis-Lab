@@ -1,0 +1,29 @@
+{
+  "files": {
+    "benchmark.json": "458e5343be2963725243834dea381b85a95fed845decefb34277522535f5aa8a",
+    "design.json": "951d03d4b0115b63f7e68fb8ad94533025825bce967ad183bf9d4307dc150635",
+    "dynamics.json": "5e5167c5d461e85c1ccf4c5df760dc4c0c28ad6d6d2aa8c81a320b9b0a301305",
+    "finite.json": "b94cbe3c48680f9ee6e6b3fe2996aa20b4ad0fa1166c53288e89a9e7c9f41027",
+    "information.json": "20541bf72414085669af7f7805cf67ad77fdca6a1cb7c8173240fae080fcea5c",
+    "lineage.json": "318a3af5e4e60e474ec0a10587e4b4917a1dd1125173dd0874420e613a29db18",
+    "lineage.sqlite": "a19472b87ac52c08f39e5e3f2498c0d4e3773a498054f16837244bdf9298d1ba",
+    "negative_control.json": "7a56451420ad120722777c4591692a44e592be9d514281d4af9339b0e8bdc579",
+    "negative_control_protocol.json": "7c7556c2f99d701b0e5b698c0ce044f5f6e3058c0358b275a95f7dfd3591a299",
+    "physics.json": "3b2c36b4b4625aa0edb757e17cb29de17907110dea8077851b49c3445a133594",
+    "protocol.json": "618b0115ea8cd8754a0efc1bd66b04d8953718d4caeb3b582014243b866d5b23",
+    "refinement.json": "b8ad7aa7cf8edba5e83e04eb4e0893b5f66581d2931b61137eee38928fb18276",
+    "report.html": "08268ab43011f2ddff4b4db2c1374edc9718606a14f4328de77ee5df6256cfff",
+    "runtime.json": "ad7570e38292fad1654e53522efd2d5cadc4202ef9a26fc98b2f2a4938b79401",
+    "sensitivity.csv": "372ca453c2d92a121eefd4507175c32b3a01c1aba1c159c4ee1c4410b7d4b08c",
+    "sensitivity.json": "2c218ee94eacd8ff6499c7e0643534a706d961205af2849ceea646cb230f2174",
+    "source_identity.json": "82eab4a4dc7027c1e5912681b46111cd455a68737bd9fbdbfc36cb75babd50fd",
+    "trajectories/high_delayed_pulse.csv": "e4800d606bb7ab07e0b7b0e486ba7493940ecc1b04e903368c4a82ef3b1afa0a",
+    "trajectories/high_early_repair.csv": "53ffce03691dadfb746211dadff7964d6ea7c93098c68503c81f02c89404b096",
+    "trajectories/high_history.csv": "bffd93a268d47731350308397acb43d3cb6d785748044c34204364738fdb354c",
+    "trajectories/high_late_repair.csv": "af4afdb1a283a0fd16a128e25cfe4bc15993fb7261dc362a8fefa7a28d432c60",
+    "trajectories/low_history.csv": "94d586aae666b3b52456d79c2231720828fab1df5c69603009da99a6f828448e",
+    "trajectories/middle_history.csv": "fdd79448d7162580aa6eb2464084baa3443a7857659a7a194671d8eb388aedb3"
+  },
+  "manifest_scope": "Content integrity, not authenticity or scientific validity.",
+  "schema_version": 1
+}

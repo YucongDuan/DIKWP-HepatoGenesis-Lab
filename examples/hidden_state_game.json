@@ -1,0 +1,78 @@
+{
+  "states": [
+    "A",
+    "B",
+    "G",
+    "D"
+  ],
+  "actions": [
+    "left",
+    "right"
+  ],
+  "observation": {
+    "A": "same",
+    "B": "same",
+    "G": "goal",
+    "D": "danger"
+  },
+  "transitions": {
+    "A": {
+      "left": [
+        "G"
+      ],
+      "right": [
+        "D"
+      ]
+    },
+    "B": {
+      "left": [
+        "D"
+      ],
+      "right": [
+        "G"
+      ]
+    },
+    "G": {
+      "left": [
+        "G"
+      ],
+      "right": [
+        "G"
+      ]
+    },
+    "D": {
+      "left": [
+        "D"
+      ],
+      "right": [
+        "D"
+      ]
+    }
+  },
+  "costs": {
+    "A": {
+      "left": 1,
+      "right": 1
+    },
+    "B": {
+      "left": 1,
+      "right": 1
+    },
+    "G": {
+      "left": 1,
+      "right": 1
+    },
+    "D": {
+      "left": 1,
+      "right": 1
+    }
+  },
+  "safe": [
+    "A",
+    "B",
+    "G"
+  ],
+  "goal": [
+    "G"
+  ]
+}

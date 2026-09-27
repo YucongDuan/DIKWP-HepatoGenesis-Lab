@@ -1,0 +1,12 @@
+{
+  "title": "A Brief History of the Liver",
+  "authors": [
+    "Yucong Duan",
+    "Zhongdao Wu"
+  ],
+  "manuscript_sha256": "dcb5524f68ea53d7845b3ace833f30248c4bd66a9d70c1a04bbd0d3633676e02",
+  "book_model_sha256": "729d4854f241280a377a14e284db213e7d39f3a0c989a2d4a4391039fdbdb70c",
+  "analyzed_material": "Final manuscript model and discussion of future-equivalence, constraints, fields and scales; supplied model source and reference results; chapter headings and source hashes.",
+  "redistribution": "Full manuscript, supplied source archives and third-party articles are not included or relicensed. New English code, fixtures and explanations are provided.",
+  "mapping": "hepatogenesis/assets/chapters.json"
+}

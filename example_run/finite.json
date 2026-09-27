@@ -1,0 +1,111 @@
+{
+  "hidden_belief": {
+    "budget": 1,
+    "cost_semantics": "Worst per-step cost over the belief; costs do not reveal the hidden state.",
+    "feasible": false,
+    "horizon": 1,
+    "policy_by_initial_observation": {
+      "same": {
+        "belief": [
+          "A",
+          "B"
+        ],
+        "reason": "no_common_feasible_action",
+        "rejected_actions": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "quantifiers": "exists one observation-based policy; for all admitted hidden states and successor choices",
+    "scope": "Exact finite-model result only. No continuous or clinical viability certificate.",
+    "visited_belief_nodes": 3
+  },
+  "individually_informed_feasibility": {
+    "A": true,
+    "B": true
+  },
+  "observation_only_quotient": {
+    "constraint_aware": false,
+    "partition": [
+      [
+        "A",
+        "B"
+      ]
+    ],
+    "refinement_trace": [
+      [
+        [
+          "A",
+          "B"
+        ]
+      ]
+    ],
+    "scope": "Exact stable finite bisimulation; observation, enabled actions and successor blocks preserved.",
+    "task_preservation": "NOT guaranteed"
+  },
+  "task_aware_quotient": {
+    "constraint_aware": true,
+    "partition": [
+      [
+        "A"
+      ],
+      [
+        "B"
+      ]
+    ],
+    "refinement_trace": [
+      [
+        [
+          "A"
+        ],
+        [
+          "B"
+        ]
+      ]
+    ],
+    "scope": "Exact stable finite bisimulation; observation, enabled actions and successor blocks preserved.",
+    "task_preservation": "safe/goal flags and action costs preserved"
+  },
+  "with_observation": {
+    "budget": 1,
+    "cost_semantics": "Worst per-step cost over the belief; costs do not reveal the hidden state.",
+    "feasible": true,
+    "horizon": 1,
+    "policy_by_initial_observation": {
+      "A": {
+        "action": "left",
+        "belief": [
+          "A"
+        ],
+        "next": {
+          "goal": {
+            "belief": [
+              "G"
+            ],
+            "terminal_goal": true
+          }
+        },
+        "worst_step_cost": 1
+      },
+      "B": {
+        "action": "right",
+        "belief": [
+          "B"
+        ],
+        "next": {
+          "goal": {
+            "belief": [
+              "G"
+            ],
+            "terminal_goal": true
+          }
+        },
+        "worst_step_cost": 1
+      }
+    },
+    "quantifiers": "exists one observation-based policy; for all admitted hidden states and successor choices",
+    "scope": "Exact finite-model result only. No continuous or clinical viability certificate.",
+    "visited_belief_nodes": 4
+  }
+}

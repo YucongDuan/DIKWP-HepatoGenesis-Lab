@@ -1,0 +1,142 @@
+{
+  "kind": "reference_values_from_supplied_book_package",
+  "source_model_version": "2.1",
+  "source_model_sha256": "729d4854f241280a377a14e284db213e7d39f3a0c989a2d4a4391039fdbdb70c",
+  "source_results_sha256": "1c16614458302a6f7e052b856ab0dc73347ec88f3fa027e6ae3bf661ea307ddc",
+  "book_docx_sha256": "dcb5524f68ea53d7845b3ace833f30248c4bd66a9d70c1a04bbd0d3633676e02",
+  "scenarios": {
+    "low_history": {
+      "scenario": {
+        "name": "low_history",
+        "memory": 0.05,
+        "pulse_start": 5.0,
+        "pulse_end": 9.0,
+        "pulse_height": 0.3,
+        "repair_start": 0.0,
+        "repair_end": 0.0,
+        "repair_multiplier": 1.0,
+        "support": 1.0,
+        "capacity": 0.8,
+        "reserve": 0.8,
+        "horizon": 60.0
+      },
+      "final_state": [
+        0.9535434627100281,
+        0.15245815790874237,
+        0.9573148641625226
+      ],
+      "extra_clearance": 0.0
+    },
+    "middle_history": {
+      "scenario": {
+        "name": "middle_history",
+        "memory": 0.9,
+        "pulse_start": 5.0,
+        "pulse_end": 9.0,
+        "pulse_height": 0.3,
+        "repair_start": 0.0,
+        "repair_end": 0.0,
+        "repair_multiplier": 1.0,
+        "support": 1.0,
+        "capacity": 0.8,
+        "reserve": 0.8,
+        "horizon": 60.0
+      },
+      "final_state": [
+        0.7829144081077297,
+        0.5705135482964309,
+        0.8415713421022031
+      ],
+      "extra_clearance": 0.0
+    },
+    "high_history": {
+      "scenario": {
+        "name": "high_history",
+        "memory": 1.6,
+        "pulse_start": 5.0,
+        "pulse_end": 9.0,
+        "pulse_height": 0.3,
+        "repair_start": 0.0,
+        "repair_end": 0.0,
+        "repair_multiplier": 1.0,
+        "support": 1.0,
+        "capacity": 0.8,
+        "reserve": 0.8,
+        "horizon": 60.0
+      },
+      "final_state": [
+        0.5971026844086912,
+        1.0052717104556497,
+        0.7499333022573091
+      ],
+      "extra_clearance": 0.0
+    },
+    "high_early_repair": {
+      "scenario": {
+        "name": "high_early_repair",
+        "memory": 1.6,
+        "pulse_start": 5.0,
+        "pulse_end": 9.0,
+        "pulse_height": 0.3,
+        "repair_start": 9.0,
+        "repair_end": 25.0,
+        "repair_multiplier": 3.0,
+        "support": 1.0,
+        "capacity": 0.8,
+        "reserve": 0.8,
+        "horizon": 60.0
+      },
+      "final_state": [
+        0.974496732965238,
+        0.0887146307719162,
+        0.9756732785073615
+      ],
+      "extra_clearance": 1.3869497246117688
+    },
+    "high_late_repair": {
+      "scenario": {
+        "name": "high_late_repair",
+        "memory": 1.6,
+        "pulse_start": 5.0,
+        "pulse_end": 9.0,
+        "pulse_height": 0.3,
+        "repair_start": 35.0,
+        "repair_end": 51.0,
+        "repair_multiplier": 3.0,
+        "support": 1.0,
+        "capacity": 0.8,
+        "reserve": 0.8,
+        "horizon": 60.0
+      },
+      "final_state": [
+        0.951736382418093,
+        0.15229679125315498,
+        0.9467303234396309
+      ],
+      "extra_clearance": 1.139579874550805
+    },
+    "high_delayed_pulse": {
+      "scenario": {
+        "name": "high_delayed_pulse",
+        "memory": 1.6,
+        "pulse_start": 25.0,
+        "pulse_end": 29.0,
+        "pulse_height": 0.3,
+        "repair_start": 0.0,
+        "repair_end": 0.0,
+        "repair_multiplier": 1.0,
+        "support": 1.0,
+        "capacity": 0.8,
+        "reserve": 0.8,
+        "horizon": 60.0
+      },
+      "final_state": [
+        0.5825666261871376,
+        1.0418390915924267,
+        0.7435937721612238
+      ],
+      "extra_clearance": 0.0
+    }
+  },
+  "scope": "Arithmetic reference, not independent biological data; the book itself labels its model uncalibrated."
+}

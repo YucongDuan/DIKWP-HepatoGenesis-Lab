@@ -1,0 +1,104 @@
+{
+  "complexity_semantics": "Penalty counts retained coordinates: three for dynamic/frozen history, two when M is erased. This is a declared representation cost, not the number of evolving degrees of freedom.",
+  "evaluation_unit": "whole trajectory, equally weighted",
+  "models": [
+    {
+      "audit_group_mse": {
+        "group_5": 5.555792002360753e-06,
+        "group_6": 3.947642831523879e-06,
+        "group_7": 3.717748967770065e-06
+      },
+      "audit_mean_mse": 4.407061267218232e-06,
+      "audit_worst_group_mse": 5.555792002360753e-06,
+      "development_group_mse": {
+        "group_3": 3.339782545412145e-06,
+        "group_4": 5.404824793775862e-06
+      },
+      "development_selection_score": 6.437230366959401e-05,
+      "fitted_q": 0.15,
+      "frozen_parameters": {
+        "a": 0.45,
+        "b": 0.7,
+        "c": 0.5,
+        "d": 0.12,
+        "e": 0.08,
+        "f": 0.25,
+        "g": 0.2,
+        "h": 0.1,
+        "q": 0.15
+      },
+      "model": "dynamic_history",
+      "state_count_penalty": 3,
+      "train_mse": 4.717186316829202e-06
+    },
+    {
+      "audit_group_mse": {
+        "group_5": 0.011750358594448021,
+        "group_6": 0.005498942571444396,
+        "group_7": 0.008893247869386748
+      },
+      "audit_mean_mse": 0.008714183011759722,
+      "audit_worst_group_mse": 0.011750358594448021,
+      "development_group_mse": {
+        "group_3": 0.0050550936443640926,
+        "group_4": 0.0030505654583727008
+      },
+      "development_selection_score": 0.004112829551368396,
+      "fitted_q": 0.15,
+      "frozen_parameters": {
+        "a": 0.45,
+        "b": 0.7,
+        "c": 0.5,
+        "d": 0.12,
+        "e": 0.08,
+        "f": 0.25,
+        "g": 0.2,
+        "h": 0.1,
+        "q": 0.15
+      },
+      "model": "frozen_history",
+      "state_count_penalty": 3,
+      "train_mse": 0.005500747042052309
+    },
+    {
+      "audit_group_mse": {
+        "group_5": 0.020484536396569306,
+        "group_6": 0.07090833067367032,
+        "group_7": 0.15665449153620373
+      },
+      "audit_mean_mse": 0.08268245286881445,
+      "audit_worst_group_mse": 0.15665449153620373,
+      "development_group_mse": {
+        "group_3": 0.02658738842173131,
+        "group_4": 0.10131263485705906
+      },
+      "development_selection_score": 0.06399001163939519,
+      "fitted_q": 0.15,
+      "frozen_parameters": {
+        "a": 0.45,
+        "b": 0.7,
+        "c": 0.5,
+        "d": 0.12,
+        "e": 0.08,
+        "f": 0.25,
+        "g": 0.2,
+        "h": 0.1,
+        "q": 0.15
+      },
+      "model": "erased_history",
+      "state_count_penalty": 2,
+      "train_mse": 0.08154817459214583
+    }
+  ],
+  "negative_control": false,
+  "protocol_sha256": "99115c1b80619d68de83dbaa6c09251bb771f0fe4c28100db3578a1da612614a",
+  "scope": "Finite synthetic benchmark; generator is disclosed and favors dynamic history outside the negative control. No external generalization claim.",
+  "selected_on_development": "dynamic_history",
+  "selection_freeze_sha256": "6ad19cb824ee9ce14b0ab9e4fcc757dc7e1ae507df17bcb29d4c6bb201a3bc73",
+  "split_counts": {
+    "audit": 3,
+    "development": 2,
+    "train": 3
+  },
+  "units": "squared dimensionless observation units"
+}
