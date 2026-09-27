@@ -135,6 +135,22 @@ class CapsuleContracts(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name)/'run';self.root.mkdir()
         (self.root/'data.txt').write_text('example');seal(self.root)
     def test_manifest_verifies(self):self.assertTrue(verify(self.root)['valid'])
+    def test_ancestor_alias_accepted(self):
+        alias=Path(self.tmp.name)/'ancestor-alias'
+        try:alias.symlink_to(self.root.parent,target_is_directory=True)
+        except OSError:self.skipTest('Host does not permit symlinks for this user.')
+        self.assertTrue(verify(alias/self.root.name)['valid'])
+    def test_symlinked_root_rejected(self):
+        alias=Path(self.tmp.name)/'root-alias'
+        try:alias.symlink_to(self.root,target_is_directory=True)
+        except OSError:self.skipTest('Host does not permit symlinks for this user.')
+        with self.assertRaises(Invalid):verify(alias)
+    def test_symlinked_payload_directory_rejected(self):
+        target=Path(self.tmp.name)/'outside';target.mkdir()
+        (target/'payload.txt').write_text('outside')
+        try:(self.root/'linked').symlink_to(target,target_is_directory=True)
+        except OSError:self.skipTest('Host does not permit symlinks for this user.')
+        with self.assertRaises(Invalid):verify(self.root)
     def test_payload_tamper(self):
         (self.root/'data.txt').write_text('changed')
         with self.assertRaises(Invalid):verify(self.root)

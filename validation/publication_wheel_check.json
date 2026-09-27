@@ -1,7 +1,7 @@
 {
   "wheel": "dikwp_hepatogenesis_lab-1.0.0-py3-none-any.whl",
-  "sha256": "5f11cd7442438ae30a3289c0ff474886886e3c9dbf0cf8622716de1dec167add",
+  "sha256": "a6112e4f4055c793578d3f9b6929c35cf2eb87ebd7f3035231abc7e15b030172",
   "returncode": 0,
-  "stdout": "{\n  \"system\": \"DIKWP HepatoGenesis Lab\",\n  \"version\": \"1.0.0\",\n  \"python\": \"3.12.14\",\n  \"supported\": true,\n  \"runtime_dependencies\": [],\n  \"network_calls_required\": false,\n  \"source\": \"0d5b1b67ddae58fdb2851ed95152d9741987943b5f75d282bd202cbafa05adc8\",\n  \"scope\": \"Synthetic research and education only; not clinically calibrated.\"\n}\n",
+  "stdout": "{\n  \"system\": \"DIKWP HepatoGenesis Lab\",\n  \"version\": \"1.0.0\",\n  \"python\": \"3.12.14\",\n  \"supported\": true,\n  \"runtime_dependencies\": [],\n  \"network_calls_required\": false,\n  \"source\": \"7fff38e875b1fb5880ff8eb2555be5fed82c3977c3420a13a9621c74f281780d\",\n  \"scope\": \"Synthetic research and education only; not clinically calibrated.\"\n}\n",
   "date": "2026-09-27"
 }

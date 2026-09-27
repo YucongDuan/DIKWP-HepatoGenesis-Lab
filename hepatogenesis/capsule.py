@@ -43,6 +43,10 @@ def verify(root:Path,expected_manifest_sha256=None):
     root=Path(root)
     manifest=root/'manifest.json'
     if root.is_symlink() or manifest.is_symlink():raise Invalid('Symlinked capsule roots or manifests are not accepted.')
+    # Resolve operating-system ancestor aliases (e.g. macOS /var -> /private/var).
+    # The root itself and all symlinks inside the capsule remain prohibited.
+    root=root.resolve()
+    manifest=root/'manifest.json'
     if expected_manifest_sha256 is not None and file_digest(manifest)!=expected_manifest_sha256:
         raise Invalid('Manifest differs from externally retained digest.')
     record=load(manifest)

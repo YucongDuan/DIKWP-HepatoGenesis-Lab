@@ -69,6 +69,7 @@ test_thermodynamic_overflow_rejected (test_core.PhysicalLedgers.test_thermodynam
 test_wrong_uncoupled_direction (test_core.PhysicalLedgers.test_wrong_uncoupled_direction) ... ok
 test_zero_reaction_quotient_rejected (test_core.PhysicalLedgers.test_zero_reaction_quotient_rejected) ... ok
 test_zones_change_outlet (test_core.PhysicalLedgers.test_zones_change_outlet) ... ok
+test_ancestor_alias_accepted (test_research.CapsuleContracts.test_ancestor_alias_accepted) ... ok
 test_embedded_html_escaped (test_research.CapsuleContracts.test_embedded_html_escaped) ... ok
 test_existing_output_not_reset (test_research.CapsuleContracts.test_existing_output_not_reset) ... ok
 test_external_head (test_research.CapsuleContracts.test_external_head) ... ok
@@ -78,6 +79,8 @@ test_missing_payload (test_research.CapsuleContracts.test_missing_payload) ... o
 test_payload_tamper (test_research.CapsuleContracts.test_payload_tamper) ... ok
 test_source_identity_present (test_research.CapsuleContracts.test_source_identity_present) ... ok
 test_symlink_rejected (test_research.CapsuleContracts.test_symlink_rejected) ... ok
+test_symlinked_payload_directory_rejected (test_research.CapsuleContracts.test_symlinked_payload_directory_rejected) ... ok
+test_symlinked_root_rejected (test_research.CapsuleContracts.test_symlinked_root_rejected) ... ok
 test_traversal_manifest (test_research.CapsuleContracts.test_traversal_manifest) ... ok
 test_all_lab_routes (test_research.ConsoleContracts.test_all_lab_routes) ... ok
 test_bounded_memory (test_research.ConsoleContracts.test_bounded_memory) ... ok
@@ -133,7 +136,7 @@ test_unit_is_trajectory (test_research.ExperimentContracts.test_unit_is_trajecto
 test_zero_sensitivity_is_empty (test_research.ExperimentContracts.test_zero_sensitivity_is_empty) ... ok
 
 ----------------------------------------------------------------------
-Ran 133 tests in 2.376s
+Ran 136 tests in 2.513s
 
 OK
 

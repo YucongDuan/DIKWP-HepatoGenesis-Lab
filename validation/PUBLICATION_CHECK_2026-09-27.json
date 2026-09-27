@@ -8,7 +8,7 @@
   "platform": "Linux",
   "unit_tests": {
     "command": "python scripts/run_tests.py",
-    "tests": 133,
+    "tests": 136,
     "result": "passed",
     "log": "publication_tests.log"
   },
@@ -16,8 +16,13 @@
   "publication_fix": {
     "issue": "SQLite transaction contexts did not close their connections, causing Windows file-lock cleanup errors.",
     "change": "Deterministic connection closure with unchanged transaction commit/rollback semantics; close direct SQL test handles.",
-    "tests_after_fix": 133,
+    "tests_after_fix": 136,
     "result": "passed",
     "first_hosted_run": "https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/actions/runs/36296652998"
+  },
+  "macos_fix": {
+    "issue": "System ancestor alias misclassified as a capsule payload symlink.",
+    "change": "Canonicalize root after rejecting direct root/manifest links; preserve payload link rejection.",
+    "regressions_added": 3
   }
 }

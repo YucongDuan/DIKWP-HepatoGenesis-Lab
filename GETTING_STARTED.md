@@ -22,7 +22,7 @@ Open `http://127.0.0.1:8766` for calculations with editable inputs. Use a new ou
 ## Inspect and extend
 
 - [Full instructions](README.md) and the guides in `docs/` explain assumptions and model scope.
-- [Local publication check](validation/PUBLICATION_CHECK_2026-09-27.json): 133 tests passed on the recorded environment.
+- [Local publication check](validation/PUBLICATION_CHECK_2026-09-27.json): 136 tests passed on the recorded environment.
 - [GitHub Actions](https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/actions) supplies hosted execution results and source revisions.
 - [Contributing](CONTRIBUTING.md) describes how to add experiments.
 

@@ -19,7 +19,7 @@ python -m hepatogenesis serve --port 8766
 
 打开 `http://127.0.0.1:8766` 使用可编辑参数的计算界面。网页展示页提供预先计算的示例报告；重新计算请运行本地 Python 程序。
 
-2026-09-27 发布准备中已通过 **133 项本地测试**。具体环境、原始附件校验与运行日志见 [发布记录](PUBLICATION.md)，云端测试状态见 [GitHub Actions](https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/actions)。
+2026-09-27 发布准备中已通过 **136 项本地测试**。具体环境、原始附件校验与运行日志见 [发布记录](PUBLICATION.md)，云端测试状态见 [GitHub Actions](https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/actions)。
 
 代码与原创配套文档采用 Apache-2.0。书稿未包含在仓库中，也不因软件发布而改变版权。计算结果的适用范围以各实验声明的条件为准。
 
