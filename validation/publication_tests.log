@@ -133,7 +133,7 @@ test_unit_is_trajectory (test_research.ExperimentContracts.test_unit_is_trajecto
 test_zero_sensitivity_is_empty (test_research.ExperimentContracts.test_zero_sensitivity_is_empty) ... ok
 
 ----------------------------------------------------------------------
-Ran 133 tests in 2.302s
+Ran 133 tests in 2.376s
 
 OK
 

@@ -4,6 +4,7 @@ import http.client
 import json
 from pathlib import Path
 import sqlite3
+from contextlib import closing
 import tempfile
 import threading
 import unittest
@@ -112,11 +113,11 @@ class EvidenceContracts(unittest.TestCase):
         self.assertIn('not verified identities',self.ledger.export()['scope'])
     def test_tamper_detected(self):
         self.ledger.add(self.node())
-        with sqlite3.connect(self.ledger.path) as db:db.execute("UPDATE events SET hash='changed'")
+        with closing(sqlite3.connect(self.ledger.path)) as db, db:db.execute("UPDATE events SET hash='changed'")
         with self.assertRaises(Invalid):self.ledger.verify()
     def test_retained_head_detects_truncation(self):
         self.ledger.add(self.node());self.ledger.add(self.node('b'));head=self.ledger.verify()['head']
-        with sqlite3.connect(self.ledger.path) as db:db.execute('DELETE FROM events WHERE seq=2')
+        with closing(sqlite3.connect(self.ledger.path)) as db, db:db.execute('DELETE FROM events WHERE seq=2')
         with self.assertRaises(Invalid):self.ledger.verify(head)
     def test_v2_quality_not_promoted(self):
         result=import_hepatoscholar_v2(load(ROOT/'examples/hepatoscholar_v2_synthetic.json'),self.ledger)

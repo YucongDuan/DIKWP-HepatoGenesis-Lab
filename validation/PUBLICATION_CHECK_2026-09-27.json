@@ -12,5 +12,12 @@
     "result": "passed",
     "log": "publication_tests.log"
   },
-  "publication_scope": "Source, documentation, examples, existing packaged distributions and static example viewers. Python calculations run locally; hosted reports are precomputed."
+  "publication_scope": "Source, documentation, examples, existing packaged distributions and static example viewers. Python calculations run locally; hosted reports are precomputed.",
+  "publication_fix": {
+    "issue": "SQLite transaction contexts did not close their connections, causing Windows file-lock cleanup errors.",
+    "change": "Deterministic connection closure with unchanged transaction commit/rollback semantics; close direct SQL test handles.",
+    "tests_after_fix": 133,
+    "result": "passed",
+    "first_hosted_run": "https://github.com/YucongDuan/DIKWP-HepatoGenesis-Lab/actions/runs/36296652998"
+  }
 }

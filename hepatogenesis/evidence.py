@@ -4,6 +4,7 @@ Hash chains detect modifications relative to a trusted head. They do not prevent
 an administrator from rewriting the whole store or authenticate scientific truth.
 """
 from __future__ import annotations
+from contextlib import contextmanager
 import json
 from pathlib import Path
 import sqlite3
@@ -19,8 +20,16 @@ class Ledger:
         with self._connect() as db:
             db.execute('CREATE TABLE IF NOT EXISTS events (seq INTEGER PRIMARY KEY, payload TEXT NOT NULL, previous TEXT NOT NULL, hash TEXT NOT NULL)')
 
+    @contextmanager
     def _connect(self):
-        return sqlite3.connect(self.path,timeout=5.)
+        # sqlite3's context manager commits or rolls back but does not close.
+        # Close deterministically so Windows can release and move ledger files.
+        db=sqlite3.connect(self.path,timeout=5.)
+        try:
+            with db:
+                yield db
+        finally:
+            db.close()
 
     @staticmethod
     def _read(db,expected_head=None):
